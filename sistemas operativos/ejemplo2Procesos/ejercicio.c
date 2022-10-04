@@ -42,7 +42,7 @@ int main(int argc, char ** argv){
 
 		}
 		if(flag==(pid_t)-1 && errno==ECHILD){ 
-		    printf("Valor del errno= %d, definido como %s\n",errno,strerror(errno));
+		    printf("Valor del errno= %d, definido como %s\n",errno ,strerror(errno));
 		}
 		else{
 		    printf("Error en la invocacion de wait o la llamada ha sido interrumpida por una señal\n");
