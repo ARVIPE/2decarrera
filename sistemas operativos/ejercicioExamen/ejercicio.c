@@ -22,9 +22,7 @@ int main(void)
     {
         printf("Soy el proceso %ld y mi padre es %ld\n", (long int)getpid(), (long int)getppid());
         exit(getpid() % 10);
-       
     }
-
     pid = fork();
     if (pid == -1)
     {
@@ -34,78 +32,78 @@ int main(void)
     else if (pid == 0)
     {
         printf("Soy el proceso %ld y mi padre es %ld\n", (long int)getpid(), (long int)getppid());
-        exit(getpid() % 10);
         pid = fork();
         if (pid == -1)
         {
             printf("Error");
             exit(EXIT_FAILURE);
         }
-        else if (pid == 0)
+        else
         {
-            printf("Soy el proceso %ld y mi padre es %ld\n", (long int)getpid(), (long int)getppid());
-            exit(getpid() % 10);
-
-        }
-
-        pid = fork();
-        if (pid == -1)
-        {
-            printf("Error");
-            exit(EXIT_FAILURE);
-        }
-        else if (pid == 0)
-        {
-            printf("Soy el proceso %ld y mi padre es %ld\n", (long int)getpid(), (long int)getppid());
-            exit(getpid() % 10);
-
-            pid = fork();
-            if (pid == -1)
-            {
-                printf("Error");
-                exit(EXIT_FAILURE);
-            }
-            else if (pid == 0)
+            if (pid == 0)
             {
                 printf("Soy el proceso %ld y mi padre es %ld\n", (long int)getpid(), (long int)getppid());
                 exit(getpid() % 10);
-
             }
-
-            // espera bloqueante
-            printf("[PADRE]: me pongo a esperar...\n");
-            int dato;
-            while ((flag = wait(&status)) > 0)
+        }
+        pid = fork();
+        if (pid == -1)
+        {
+            printf("Error");
+            exit(EXIT_FAILURE);
+        }
+        else
+        {
+            if (pid == 0)
             {
-                if (WIFEXITED(status))
+                printf("Soy el proceso %ld y mi padre es %ld\n", (long int)getpid(), (long int)getppid());
+                pid = fork();
+                if (pid == -1)
                 {
-                    dato = WEXITSTATUS(status);
-                    printf("hijo %ld finalizado con status %d\n", (long int)flag, WEXITSTATUS(status));
+                    printf("Error");
+                    exit(EXIT_FAILURE);
                 }
-                else if (WIFSIGNALED(status))
+                else if (pid == 0)
                 {
-                    printf("hijo %ld finalizado tras recibir una senal con status %d\n", (long int)flag, WTERMSIG(status));
+                    printf("Soy el proceso %ld y mi padre es %ld\n", (long int)getpid(), (long int)getppid());
+                    exit(getpid() % 10);
                 }
-                else if (WIFSTOPPED(status))
+               
+                // espera bloqueante
+                printf("[PADRE]: me pongo a esperar...\n");
+                int dato;
+                while ((flag = wait(&status)) > 0)
                 {
-                    printf("hijo %ld parado con status %d\n", (long int)flag, WSTOPSIG(status));
+                    if (WIFEXITED(status))
+                    {
+                        dato = WEXITSTATUS(status);
+                        printf("hijo %ld finalizado con status %d\n", (long int)flag, WEXITSTATUS(status));
+                    }
+                    else if (WIFSIGNALED(status))
+                    {
+                        printf("hijo %ld finalizado tras recibir una senal con status %d\n", (long int)flag, WTERMSIG(status));
+                    }
+                    else if (WIFSTOPPED(status))
+                    {
+                        printf("hijo %ld parado con status %d\n", (long int)flag, WSTOPSIG(status));
+                    }
+                    else if (WIFCONTINUED(status))
+                    {
+                        printf("hijo %ld reanudado\n", (long int)flag);
+                    }
                 }
-                else if (WIFCONTINUED(status))
+                if (flag == (pid_t)-1 && errno == ECHILD)
                 {
-                    printf("hijo %ld reanudado\n", (long int)flag);
+                    printf("Valor del errno= %d, definido como %s\n", errno, strerror(errno));
                 }
+                else
+                {
+                    printf("Error en la invocacion de wait o la llamada ha sido interrumpida por una señal\n");
+                    exit(EXIT_FAILURE);
+                }
+                exit(dato + getpid() % 10);
+                
             }
-            if (flag == (pid_t)-1 && errno == ECHILD)
-            {
-                printf("Valor del errno= %d, definido como %s\n", errno, strerror(errno));
-            }
-            else
-            {
-                printf("Error en la invocacion de wait o la llamada ha sido interrumpida por una señal\n");
-                exit(EXIT_FAILURE);
-            }
-
-            
         }
 
         // espera bloqueante
@@ -140,8 +138,7 @@ int main(void)
             printf("Error en la invocacion de wait o la llamada ha sido interrumpida por una señal\n");
             exit(EXIT_FAILURE);
         }
-
-  
+        exit(dato + getpid() % 10);
     }
 
     // espera bloqueante
@@ -151,7 +148,7 @@ int main(void)
     {
         if (WIFEXITED(status))
         {
-            dato = WEXITSTATUS(status);
+            dato=WEXITSTATUS(status);
             printf("hijo %ld finalizado con status %d\n", (long int)flag, WEXITSTATUS(status));
         }
         else if (WIFSIGNALED(status))
@@ -176,6 +173,10 @@ int main(void)
         printf("Error en la invocacion de wait o la llamada ha sido interrumpida por una señal\n");
         exit(EXIT_FAILURE);
     }
+
+    printf("El dato final es de : %i\n", dato+(getpid()%10));
+    
+    
 
     printf("[PADRE]: Me muero...\n");
     exit(EXIT_SUCCESS);
