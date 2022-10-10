@@ -11,7 +11,7 @@
 int main(void)
 {
     pid_t pid, flag;
-    int status;
+    int status, dato;
     pid = fork();
     if (pid == -1)
     {
@@ -70,13 +70,14 @@ int main(void)
                 }
                
                 // espera bloqueante
+                sleep(5);
                 printf("[PADRE]: me pongo a esperar...\n");
-                int dato;
+                dato=0;
                 while ((flag = wait(&status)) > 0)
                 {
                     if (WIFEXITED(status))
                     {
-                        dato = WEXITSTATUS(status);
+                        dato += WEXITSTATUS(status);
                         printf("hijo %ld finalizado con status %d\n", (long int)flag, WEXITSTATUS(status));
                     }
                     else if (WIFSIGNALED(status))
@@ -101,19 +102,20 @@ int main(void)
                     printf("Error en la invocacion de wait o la llamada ha sido interrumpida por una señal\n");
                     exit(EXIT_FAILURE);
                 }
-                exit(dato + getpid() % 10);
+                exit(dato + (getpid() % 10));
                 
             }
         }
 
         // espera bloqueante
+        sleep(5);
         printf("[PADRE]: me pongo a esperar...\n");
-        int dato;
+        dato=0;
         while ((flag = wait(&status)) > 0)
         {
             if (WIFEXITED(status))
             {
-                dato = WEXITSTATUS(status);
+                dato += WEXITSTATUS(status);
                 printf("hijo %ld finalizado con status %d\n", (long int)flag, WEXITSTATUS(status));
             }
             else if (WIFSIGNALED(status))
@@ -138,17 +140,18 @@ int main(void)
             printf("Error en la invocacion de wait o la llamada ha sido interrumpida por una señal\n");
             exit(EXIT_FAILURE);
         }
-        exit(dato + getpid() % 10);
+        exit(dato + (getpid() % 10));
     }
 
     // espera bloqueante
+    sleep(5);
     printf("[PADRE]: me pongo a esperar...\n");
-    int dato;
+    dato=0;
     while ((flag = wait(&status)) > 0)
     {
         if (WIFEXITED(status))
         {
-            dato=WEXITSTATUS(status);
+            dato += WEXITSTATUS(status);
             printf("hijo %ld finalizado con status %d\n", (long int)flag, WEXITSTATUS(status));
         }
         else if (WIFSIGNALED(status))

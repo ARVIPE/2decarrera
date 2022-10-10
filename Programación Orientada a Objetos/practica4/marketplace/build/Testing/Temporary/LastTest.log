@@ -1,0 +1,38 @@
+Start testing: Sep 29 12:41 CEST
+----------------------------------------------------------
+1/1 Testing: person_gtests
+1/1 Test: person_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/tests/person_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/tests
+"person_gtests" start time: Sep 29 12:41 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from Person
+[ RUN      ] Person.ConstructorDefaultParam
+[       OK ] Person.ConstructorDefaultParam (0 ms)
+[ RUN      ] Person.ConstructorParam
+[       OK ] Person.ConstructorParam (0 ms)
+[ RUN      ] Person.Entry_year_test
+[       OK ] Person.Entry_year_test (0 ms)
+[ RUN      ] Person.Function_get_full_address
+[       OK ] Person.Function_get_full_address (0 ms)
+[ RUN      ] Person.DefaultCopyConstructor
+[       OK ] Person.DefaultCopyConstructor (0 ms)
+[ RUN      ] Person.DefaultEqualOperator
+[       OK ] Person.DefaultEqualOperator (0 ms)
+[----------] 6 tests from Person (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"person_gtests" end time: Sep 29 12:41 CEST
+"person_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 29 12:41 CEST
