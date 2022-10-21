@@ -12,8 +12,8 @@ project(googletest-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(googletest-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/google/googletest.git" "GIT_TAG" "release-1.11.0"
-                    SOURCE_DIR          "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/_deps/googletest-src"
-                    BINARY_DIR          "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/_deps/googletest-build"
+                    SOURCE_DIR          "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-src"
+                    BINARY_DIR          "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

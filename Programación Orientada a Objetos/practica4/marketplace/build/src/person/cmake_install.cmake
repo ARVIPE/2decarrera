@@ -1,4 +1,4 @@
-# Install script for directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/src/person
+# Install script for directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/person
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

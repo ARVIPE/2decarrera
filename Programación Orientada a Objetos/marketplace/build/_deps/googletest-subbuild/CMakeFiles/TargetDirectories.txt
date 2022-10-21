@@ -1,0 +1,3 @@
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/marketplace/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/marketplace/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/marketplace/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir

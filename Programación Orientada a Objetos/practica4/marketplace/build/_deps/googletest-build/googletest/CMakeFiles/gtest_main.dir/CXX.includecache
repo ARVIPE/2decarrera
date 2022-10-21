@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/_deps/googletest-src/googletest/src/gtest_main.cc
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-src/googletest/src/gtest_main.cc
 cstdio
 -
 gtest/gtest.h
-/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/_deps/googletest-src/googletest/src/gtest/gtest.h
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-src/googletest/src/gtest/gtest.h
 
 _deps/googletest-src/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

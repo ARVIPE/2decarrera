@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/src/person/person.h
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/person/person.h
 string
 -
 
-/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/src/person/person_main.cc
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/person/person_main.cc
 iostream
 -
 string
 -
 person.h
-/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/src/person/person.h
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/person/person.h
 

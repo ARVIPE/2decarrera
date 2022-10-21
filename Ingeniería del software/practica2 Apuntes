@@ -1,0 +1,10 @@
+Práctica 2 diseño del sistema
+
+1) Diagrama de clases se representan basicamente las clases que hay en nuestro proyecto.
+- Asociación: suele indicar la cardinalidad. El número de veces que puede aparecer.
+
+
+2) Analisis debil confrontar los casos de uso con los requisitos. Todo requisito tiene que estar en al menos un caso de uso. Si no está es porque el requisito es inventado, los requisitos deben de ser necesarios. Caso de uso tiene que tener al menos un requisito.
+
+3) Diagrama de secuencia.
+Lo primero es detectar en los requisitos funcionales los nombres los verbos y lo que quieren.   

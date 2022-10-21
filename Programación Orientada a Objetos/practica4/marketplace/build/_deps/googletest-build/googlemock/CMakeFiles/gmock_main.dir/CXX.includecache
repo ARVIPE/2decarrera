@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/_deps/googletest-src/googlemock/src/gmock_main.cc
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-src/googlemock/src/gmock_main.cc
 iostream
 -
 gmock/gmock.h
-/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/_deps/googletest-src/googlemock/src/gmock/gmock.h
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-src/googlemock/src/gmock/gmock.h
 gtest/gtest.h
-/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/_deps/googletest-src/googlemock/src/gtest/gtest.h
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-src/googlemock/src/gtest/gtest.h
 tchar.h
 -
 

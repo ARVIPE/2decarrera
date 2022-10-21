@@ -5,9 +5,9 @@
 #include "product.h"
 
 int main(void){
-    Product producto("XXX35", "croquetas", "hacendado", 3.25, 3);
+    Product Product("XXX35", "croquetas", "hacendado", 3.25, "ae");
     
 
-    std::cout<<producto.get_id()<<std::endl;
+    //std::cout<<producto.get_id()<<std::endl;
 
-}
+}       

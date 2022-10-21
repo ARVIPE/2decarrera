@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace"
+CMAKE_SOURCE_DIR = "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build"
+CMAKE_BINARY_DIR = "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/CMakeFiles" "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -192,6 +192,45 @@ person: cmake_check_build_system
 person/fast:
 	$(MAKE) -f src/person/CMakeFiles/person.dir/build.make src/person/CMakeFiles/person.dir/build
 .PHONY : person/fast
+
+#=============================================================================
+# Target rules for targets named product_main
+
+# Build rule for target.
+product_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 product_main
+.PHONY : product_main
+
+# fast build rule for target.
+product_main/fast:
+	$(MAKE) -f src/product/CMakeFiles/product_main.dir/build.make src/product/CMakeFiles/product_main.dir/build
+.PHONY : product_main/fast
+
+#=============================================================================
+# Target rules for targets named product
+
+# Build rule for target.
+product: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 product
+.PHONY : product
+
+# fast build rule for target.
+product/fast:
+	$(MAKE) -f src/product/CMakeFiles/product.dir/build.make src/product/CMakeFiles/product.dir/build
+.PHONY : product/fast
+
+#=============================================================================
+# Target rules for targets named product_test
+
+# Build rule for target.
+product_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 product_test
+.PHONY : product_test
+
+# fast build rule for target.
+product_test/fast:
+	$(MAKE) -f tests/CMakeFiles/product_test.dir/build.make tests/CMakeFiles/product_test.dir/build
+.PHONY : product_test/fast
 
 #=============================================================================
 # Target rules for targets named person_test
@@ -273,6 +312,9 @@ help:
 	@echo "... test"
 	@echo "... person_main"
 	@echo "... person"
+	@echo "... product_main"
+	@echo "... product"
+	@echo "... product_test"
 	@echo "... person_test"
 	@echo "... gmock_main"
 	@echo "... gmock"

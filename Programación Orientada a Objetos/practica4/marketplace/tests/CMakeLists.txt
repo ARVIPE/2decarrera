@@ -14,15 +14,15 @@ target_link_libraries(GTest::GTest INTERFACE gtest_main)
 # Testing person library
 add_executable(person_test person_test.cc)
 target_link_libraries(person_test
- PRIVATE GTest::GTest person)
+PRIVATE GTest::GTest person)
 add_test(person_gtests person_test)
 
-## Testing product library
-#add_executable(product_test product_test.cc)
-#target_link_libraries(product_test
-# PRIVATE GTest::GTest product)
-#add_test(product_gtests product_test)
-#
+# Testing product library
+add_executable(product_test product_test.cc)
+target_link_libraries(product_test
+PRIVATE GTest::GTest product)
+add_test(product_gtests product_test)
+
 ## Testing tv library
 #add_executable(tv_test tv_test.cc)
 #target_link_libraries(tv_test

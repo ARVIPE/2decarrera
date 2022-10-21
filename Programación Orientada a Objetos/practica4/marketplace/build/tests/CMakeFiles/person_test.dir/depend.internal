@@ -3,7 +3,7 @@
 
 tests/CMakeFiles/person_test.dir/person_test.cc.o
  ../src/person/person.h
- /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/tests/person_test.cc
+ /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/tests/person_test.cc
  _deps/googletest-src/googletest/include/gtest/gtest-death-test.h
  _deps/googletest-src/googletest/include/gtest/gtest-matchers.h
  _deps/googletest-src/googletest/include/gtest/gtest-message.h

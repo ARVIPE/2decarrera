@@ -1,10 +1,10 @@
-Start testing: Sep 29 12:41 CEST
+Start testing: Oct 21 21:05 CEST
 ----------------------------------------------------------
-1/1 Testing: person_gtests
-1/1 Test: person_gtests
-Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/tests/person_test"
-Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/tests
-"person_gtests" start time: Sep 29 12:41 CEST
+1/2 Testing: person_gtests
+1/2 Test: person_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/person_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
+"person_gtests" start time: Oct 21 21:05 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -28,11 +28,27 @@ Output:
 [==========] 6 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 6 tests.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"person_gtests" end time: Sep 29 12:41 CEST
+"person_gtests" end time: Oct 21 21:05 CEST
 "person_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 29 12:41 CEST
+Unable to find executable: product_test
+2/2 Testing: product_gtests
+2/2 Test: product_gtests
+Command: ""
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
+"product_gtests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"product_gtests" end time: Oct 21 21:05 CEST
+"product_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 21 21:05 CEST

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace"
+CMAKE_SOURCE_DIR = "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build"
+CMAKE_BINARY_DIR = "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/CMakeFiles" "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/tests/CMakeFiles/progress.marks"
-	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build/CMakeFiles" 0
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/CMakeFiles/progress.marks"
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,37 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
+tests/CMakeFiles/product_test.dir/rule:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/product_test.dir/rule
+.PHONY : tests/CMakeFiles/product_test.dir/rule
+
+# Convenience name for target.
+product_test: tests/CMakeFiles/product_test.dir/rule
+
+.PHONY : product_test
+
+# fast build rule for target.
+product_test/fast:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/product_test.dir/build.make tests/CMakeFiles/product_test.dir/build
+.PHONY : product_test/fast
+
+# Convenience name for target.
 tests/CMakeFiles/person_test.dir/rule:
-	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/person_test.dir/rule
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/person_test.dir/rule
 .PHONY : tests/CMakeFiles/person_test.dir/rule
 
 # Convenience name for target.
@@ -179,7 +194,7 @@ person_test: tests/CMakeFiles/person_test.dir/rule
 
 # fast build rule for target.
 person_test/fast:
-	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build" && $(MAKE) -f tests/CMakeFiles/person_test.dir/build.make tests/CMakeFiles/person_test.dir/build
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/person_test.dir/build.make tests/CMakeFiles/person_test.dir/build
 .PHONY : person_test/fast
 
 person_test.o: person_test.cc.o
@@ -188,7 +203,7 @@ person_test.o: person_test.cc.o
 
 # target to build an object file
 person_test.cc.o:
-	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build" && $(MAKE) -f tests/CMakeFiles/person_test.dir/build.make tests/CMakeFiles/person_test.dir/person_test.cc.o
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/person_test.dir/build.make tests/CMakeFiles/person_test.dir/person_test.cc.o
 .PHONY : person_test.cc.o
 
 person_test.i: person_test.cc.i
@@ -197,7 +212,7 @@ person_test.i: person_test.cc.i
 
 # target to preprocess a source file
 person_test.cc.i:
-	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build" && $(MAKE) -f tests/CMakeFiles/person_test.dir/build.make tests/CMakeFiles/person_test.dir/person_test.cc.i
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/person_test.dir/build.make tests/CMakeFiles/person_test.dir/person_test.cc.i
 .PHONY : person_test.cc.i
 
 person_test.s: person_test.cc.s
@@ -206,8 +221,35 @@ person_test.s: person_test.cc.s
 
 # target to generate assembly for a file
 person_test.cc.s:
-	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build" && $(MAKE) -f tests/CMakeFiles/person_test.dir/build.make tests/CMakeFiles/person_test.dir/person_test.cc.s
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/person_test.dir/build.make tests/CMakeFiles/person_test.dir/person_test.cc.s
 .PHONY : person_test.cc.s
+
+product_test.o: product_test.cc.o
+
+.PHONY : product_test.o
+
+# target to build an object file
+product_test.cc.o:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/product_test.dir/build.make tests/CMakeFiles/product_test.dir/product_test.cc.o
+.PHONY : product_test.cc.o
+
+product_test.i: product_test.cc.i
+
+.PHONY : product_test.i
+
+# target to preprocess a source file
+product_test.cc.i:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/product_test.dir/build.make tests/CMakeFiles/product_test.dir/product_test.cc.i
+.PHONY : product_test.cc.i
+
+product_test.s: product_test.cc.s
+
+.PHONY : product_test.s
+
+# target to generate assembly for a file
+product_test.cc.s:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/product_test.dir/build.make tests/CMakeFiles/product_test.dir/product_test.cc.s
+.PHONY : product_test.cc.s
 
 # Help Target
 help:
@@ -221,11 +263,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... product_test"
 	@echo "... install/local"
 	@echo "... person_test"
 	@echo "... person_test.o"
 	@echo "... person_test.i"
 	@echo "... person_test.s"
+	@echo "... product_test.o"
+	@echo "... product_test.i"
+	@echo "... product_test.s"
 .PHONY : help
 
 
@@ -237,6 +283,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica3/marketplace/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
