@@ -5,6 +5,6 @@
 #include "product.h"
 
 int main(void){
-    Product producto("XX52", "croquetas", 5.2, "hacendado", "paco");
+    Product producto("XX52", "", 0.0, "", "");
     
 }

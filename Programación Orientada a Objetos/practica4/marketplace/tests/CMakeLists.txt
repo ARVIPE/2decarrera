@@ -23,12 +23,12 @@ target_link_libraries(product_test
 PRIVATE GTest::GTest product)
 add_test(product_gtests product_test)
 
-## Testing tv library
-#add_executable(tv_test tv_test.cc)
-#target_link_libraries(tv_test
-# PRIVATE GTest::GTest tv)
-#add_test(tv_gtests tv_test)
-#
+# Testing tv library
+add_executable(tv_test tv_test.cc)
+target_link_libraries(tv_test
+PRIVATE GTest::GTest tv)
+add_test(tv_gtests tv_test)
+
 ## Testing computer library
 #add_executable(computer_test computer_test.cc)
 #target_link_libraries(computer_test
