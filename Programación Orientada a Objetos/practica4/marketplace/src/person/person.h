@@ -20,7 +20,7 @@ class Person{
             std::string town="empty",
             std::string province="empty",
             std::string country="empty",
-            int entry_year=0);
+            int entry_year=0); 
     //Getters
     inline std::string get_id(){return id_;}
     inline std::string get_name(){return name_;}

@@ -1,14 +1,16 @@
-// person.cc
-// Para metodos de productos
+//product.cc
+//Para metodos de producto
 #include "product.h"
 #include <string>
 
-Product::Product(std::string id, std::string name,
-                 std::string maker, float price, std::string seller)
-{
-    id_ = id;
-    name_ = name;
-    maker_ = maker;
-    price_ = price;
-    seller_ = seller;
-}   
+Product::Product(std::string id,
+            std::string name,
+            float price,
+            std::string maker,
+            std::string seller){
+                id_=id;
+                name_=name;
+                price_=price;
+                maker_=maker;
+                seller_=seller;
+            }

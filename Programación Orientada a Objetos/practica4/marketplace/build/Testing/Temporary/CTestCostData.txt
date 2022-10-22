@@ -1,4 +1,3 @@
-person_gtests 2 0.00294367
-product_gtests 0 0
+person_gtests 6 0.000260782
+product_gtests 2 0.000667706
 ---
-product_gtests
