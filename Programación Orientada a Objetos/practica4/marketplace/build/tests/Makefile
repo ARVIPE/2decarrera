@@ -213,6 +213,44 @@ tv_test/fast:
 	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tv_test.dir/build.make tests/CMakeFiles/tv_test.dir/build
 .PHONY : tv_test/fast
 
+# Convenience name for target.
+tests/CMakeFiles/computer_test.dir/rule:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/computer_test.dir/rule
+.PHONY : tests/CMakeFiles/computer_test.dir/rule
+
+# Convenience name for target.
+computer_test: tests/CMakeFiles/computer_test.dir/rule
+.PHONY : computer_test
+
+# fast build rule for target.
+computer_test/fast:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/computer_test.dir/build.make tests/CMakeFiles/computer_test.dir/build
+.PHONY : computer_test/fast
+
+computer_test.o: computer_test.cc.o
+.PHONY : computer_test.o
+
+# target to build an object file
+computer_test.cc.o:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/computer_test.dir/build.make tests/CMakeFiles/computer_test.dir/computer_test.cc.o
+.PHONY : computer_test.cc.o
+
+computer_test.i: computer_test.cc.i
+.PHONY : computer_test.i
+
+# target to preprocess a source file
+computer_test.cc.i:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/computer_test.dir/build.make tests/CMakeFiles/computer_test.dir/computer_test.cc.i
+.PHONY : computer_test.cc.i
+
+computer_test.s: computer_test.cc.s
+.PHONY : computer_test.s
+
+# target to generate assembly for a file
+computer_test.cc.s:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/computer_test.dir/build.make tests/CMakeFiles/computer_test.dir/computer_test.cc.s
+.PHONY : computer_test.cc.s
+
 person_test.o: person_test.cc.o
 .PHONY : person_test.o
 
@@ -298,9 +336,13 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... computer_test"
 	@echo "... person_test"
 	@echo "... product_test"
 	@echo "... tv_test"
+	@echo "... computer_test.o"
+	@echo "... computer_test.i"
+	@echo "... computer_test.s"
 	@echo "... person_test.o"
 	@echo "... person_test.i"
 	@echo "... person_test.s"

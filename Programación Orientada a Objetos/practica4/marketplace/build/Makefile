@@ -250,6 +250,58 @@ tv_main/fast:
 .PHONY : tv_main/fast
 
 #=============================================================================
+# Target rules for targets named computer
+
+# Build rule for target.
+computer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 computer
+.PHONY : computer
+
+# fast build rule for target.
+computer/fast:
+	$(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer.dir/build.make src/computer/CMakeFiles/computer.dir/build
+.PHONY : computer/fast
+
+#=============================================================================
+# Target rules for targets named computer_main
+
+# Build rule for target.
+computer_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 computer_main
+.PHONY : computer_main
+
+# fast build rule for target.
+computer_main/fast:
+	$(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer_main.dir/build.make src/computer/CMakeFiles/computer_main.dir/build
+.PHONY : computer_main/fast
+
+#=============================================================================
+# Target rules for targets named basket
+
+# Build rule for target.
+basket: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 basket
+.PHONY : basket
+
+# fast build rule for target.
+basket/fast:
+	$(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket.dir/build.make src/basket/CMakeFiles/basket.dir/build
+.PHONY : basket/fast
+
+#=============================================================================
+# Target rules for targets named basket_main
+
+# Build rule for target.
+basket_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 basket_main
+.PHONY : basket_main
+
+# fast build rule for target.
+basket_main/fast:
+	$(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket_main.dir/build.make src/basket/CMakeFiles/basket_main.dir/build
+.PHONY : basket_main/fast
+
+#=============================================================================
 # Target rules for targets named person_test
 
 # Build rule for target.
@@ -287,6 +339,19 @@ tv_test: cmake_check_build_system
 tv_test/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tv_test.dir/build.make tests/CMakeFiles/tv_test.dir/build
 .PHONY : tv_test/fast
+
+#=============================================================================
+# Target rules for targets named computer_test
+
+# Build rule for target.
+computer_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 computer_test
+.PHONY : computer_test
+
+# fast build rule for target.
+computer_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/computer_test.dir/build.make tests/CMakeFiles/computer_test.dir/build
+.PHONY : computer_test/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -353,6 +418,11 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... basket"
+	@echo "... basket_main"
+	@echo "... computer"
+	@echo "... computer_main"
+	@echo "... computer_test"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"

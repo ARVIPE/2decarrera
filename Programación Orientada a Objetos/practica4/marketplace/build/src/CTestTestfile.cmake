@@ -7,3 +7,5 @@
 subdirs("person")
 subdirs("product")
 subdirs("tv")
+subdirs("computer")
+subdirs("basket")
