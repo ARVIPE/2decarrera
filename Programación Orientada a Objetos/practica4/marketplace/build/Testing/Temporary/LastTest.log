@@ -1,10 +1,10 @@
-Start testing: Oct 22 18:34 CEST
+Start testing: Oct 23 12:27 CEST
 ----------------------------------------------------------
-1/2 Testing: person_gtests
-1/2 Test: person_gtests
+1/4 Testing: person_gtests
+1/4 Test: person_gtests
 Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/person_test"
 Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
-"person_gtests" start time: Oct 22 18:34 CEST
+"person_gtests" start time: Oct 23 12:27 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -31,15 +31,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"person_gtests" end time: Oct 22 18:34 CEST
+"person_gtests" end time: Oct 23 12:27 CEST
 "person_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/2 Testing: product_gtests
-2/2 Test: product_gtests
+2/4 Testing: product_gtests
+2/4 Test: product_gtests
 Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/product_test"
 Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
-"product_gtests" start time: Oct 22 18:34 CEST
+"product_gtests" start time: Oct 23 12:27 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -60,8 +60,68 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"product_gtests" end time: Oct 22 18:34 CEST
+"product_gtests" end time: Oct 23 12:27 CEST
 "product_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 22 18:34 CEST
+3/4 Testing: tv_gtests
+3/4 Test: tv_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/tv_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
+"tv_gtests" start time: Oct 23 12:27 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from Tv
+[ RUN      ] Tv.ConstructorDefaultParam
+[       OK ] Tv.ConstructorDefaultParam (0 ms)
+[ RUN      ] Tv.ConstructorParam
+[       OK ] Tv.ConstructorParam (0 ms)
+[ RUN      ] Tv.TvSetters
+[       OK ] Tv.TvSetters (0 ms)
+[ RUN      ] Tv.Tv_set_inch
+[       OK ] Tv.Tv_set_inch (0 ms)
+[----------] 4 tests from Tv (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tv_gtests" end time: Oct 23 12:27 CEST
+"tv_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: computer_gtests
+4/4 Test: computer_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/computer_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
+"computer_gtests" start time: Oct 23 12:27 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from Computer
+[ RUN      ] Computer.ConstructorDefaultParam
+[       OK ] Computer.ConstructorDefaultParam (0 ms)
+[ RUN      ] Computer.ConstructorParam
+[       OK ] Computer.ConstructorParam (0 ms)
+[ RUN      ] Computer.ComputerSetters
+[       OK ] Computer.ComputerSetters (0 ms)
+[----------] 3 tests from Computer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"computer_gtests" end time: Oct 23 12:27 CEST
+"computer_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 23 12:27 CEST
