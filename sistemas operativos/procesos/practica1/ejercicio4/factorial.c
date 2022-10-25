@@ -6,6 +6,7 @@
 #include <errno.h>
 #include <string.h>
 
+
 int main(int argc, char const *argv [])
 {
     int tam = atoi(argv[1]);
