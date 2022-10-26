@@ -19,7 +19,7 @@
 
 <p align="center">
  <div align="center">
-    <img width="100%" src="https://d3t4nwcgmfrp9x.cloudfront.net/upload/claves-crear-buena-base-datos.jpg" alt="PAS">
+    <img width="100%" src="https://i.imgur.com/S32JZsy.jpeg" alt="PAS">
   </div>
 </p>
 
