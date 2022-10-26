@@ -51,7 +51,6 @@ $ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/2decarrera
 # Access
 $ cd 2decarrera
 
-# The server will initialize in the <http://localhost:3000>
 ```
 
 ## :memo: License ##
