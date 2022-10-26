@@ -4,5 +4,5 @@
 
 
 <div align="center">
-    <img width="100%" src="https://imgur.com/S32JZsy" alt="PAS">
+    <blockquote class="imgur-embed-pub" lang="en" data-id="a/Hucodfo" data-context="false" ><a href="//imgur.com/a/Hucodfo"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 </div>
