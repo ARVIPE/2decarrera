@@ -18,12 +18,9 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+ <div align="center">
+    <img width="100%" src="https://d3t4nwcgmfrp9x.cloudfront.net/upload/claves-crear-buena-base-datos.jpg" alt="PAS">
+  </div>
 </p>
 
 <br>
