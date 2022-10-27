@@ -264,6 +264,7 @@ src/tv/clean: src/tv/CMakeFiles/tv.dir/clean
 # Directory level rules for directory tests
 
 # Recursive "all" directory target.
+tests/all: tests/CMakeFiles/basket_test.dir/all
 tests/all: tests/CMakeFiles/computer_test.dir/all
 tests/all: tests/CMakeFiles/tv_test.dir/all
 tests/all: tests/CMakeFiles/product_test.dir/all
@@ -278,6 +279,7 @@ tests/preinstall: _deps/googletest-build/preinstall
 .PHONY : tests/preinstall
 
 # Recursive "clean" directory target.
+tests/clean: tests/CMakeFiles/basket_test.dir/clean
 tests/clean: tests/CMakeFiles/computer_test.dir/clean
 tests/clean: tests/CMakeFiles/tv_test.dir/clean
 tests/clean: tests/CMakeFiles/product_test.dir/clean
@@ -293,7 +295,7 @@ tests/clean: _deps/googletest-build/clean
 src/person/CMakeFiles/person_main.dir/all: src/person/CMakeFiles/person.dir/all
 	$(MAKE) -f src/person/CMakeFiles/person_main.dir/build.make src/person/CMakeFiles/person_main.dir/depend
 	$(MAKE) -f src/person/CMakeFiles/person_main.dir/build.make src/person/CMakeFiles/person_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=21,22 "Built target person_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=23,24 "Built target person_main"
 .PHONY : src/person/CMakeFiles/person_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -320,7 +322,7 @@ src/person/CMakeFiles/person_main.dir/clean:
 src/person/CMakeFiles/person.dir/all:
 	$(MAKE) -f src/person/CMakeFiles/person.dir/build.make src/person/CMakeFiles/person.dir/depend
 	$(MAKE) -f src/person/CMakeFiles/person.dir/build.make src/person/CMakeFiles/person.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=19,20 "Built target person"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=21,22 "Built target person"
 .PHONY : src/person/CMakeFiles/person.dir/all
 
 # Build rule for subdir invocation for target.
@@ -347,7 +349,7 @@ src/person/CMakeFiles/person.dir/clean:
 src/product/CMakeFiles/product_main.dir/all: src/product/CMakeFiles/product.dir/all
 	$(MAKE) -f src/product/CMakeFiles/product_main.dir/build.make src/product/CMakeFiles/product_main.dir/depend
 	$(MAKE) -f src/product/CMakeFiles/product_main.dir/build.make src/product/CMakeFiles/product_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=27,28 "Built target product_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=29,30 "Built target product_main"
 .PHONY : src/product/CMakeFiles/product_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -374,7 +376,7 @@ src/product/CMakeFiles/product_main.dir/clean:
 src/product/CMakeFiles/product.dir/all:
 	$(MAKE) -f src/product/CMakeFiles/product.dir/build.make src/product/CMakeFiles/product.dir/depend
 	$(MAKE) -f src/product/CMakeFiles/product.dir/build.make src/product/CMakeFiles/product.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=25,26 "Built target product"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=27,28 "Built target product"
 .PHONY : src/product/CMakeFiles/product.dir/all
 
 # Build rule for subdir invocation for target.
@@ -401,7 +403,7 @@ src/product/CMakeFiles/product.dir/clean:
 src/tv/CMakeFiles/tv_main.dir/all: src/tv/CMakeFiles/tv.dir/all
 	$(MAKE) -f src/tv/CMakeFiles/tv_main.dir/build.make src/tv/CMakeFiles/tv_main.dir/depend
 	$(MAKE) -f src/tv/CMakeFiles/tv_main.dir/build.make src/tv/CMakeFiles/tv_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=33,34 "Built target tv_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=35,36 "Built target tv_main"
 .PHONY : src/tv/CMakeFiles/tv_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -428,7 +430,7 @@ src/tv/CMakeFiles/tv_main.dir/clean:
 src/tv/CMakeFiles/tv.dir/all:
 	$(MAKE) -f src/tv/CMakeFiles/tv.dir/build.make src/tv/CMakeFiles/tv.dir/depend
 	$(MAKE) -f src/tv/CMakeFiles/tv.dir/build.make src/tv/CMakeFiles/tv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=31,32 "Built target tv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=33,34 "Built target tv"
 .PHONY : src/tv/CMakeFiles/tv.dir/all
 
 # Build rule for subdir invocation for target.
@@ -455,7 +457,7 @@ src/tv/CMakeFiles/tv.dir/clean:
 src/computer/CMakeFiles/computer_main.dir/all: src/computer/CMakeFiles/computer.dir/all
 	$(MAKE) -f src/computer/CMakeFiles/computer_main.dir/build.make src/computer/CMakeFiles/computer_main.dir/depend
 	$(MAKE) -f src/computer/CMakeFiles/computer_main.dir/build.make src/computer/CMakeFiles/computer_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=7,8 "Built target computer_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=9,10 "Built target computer_main"
 .PHONY : src/computer/CMakeFiles/computer_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -482,7 +484,7 @@ src/computer/CMakeFiles/computer_main.dir/clean:
 src/computer/CMakeFiles/computer.dir/all:
 	$(MAKE) -f src/computer/CMakeFiles/computer.dir/build.make src/computer/CMakeFiles/computer.dir/depend
 	$(MAKE) -f src/computer/CMakeFiles/computer.dir/build.make src/computer/CMakeFiles/computer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=5,6 "Built target computer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=7,8 "Built target computer"
 .PHONY : src/computer/CMakeFiles/computer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -557,6 +559,35 @@ src/basket/CMakeFiles/basket.dir/clean:
 .PHONY : src/basket/CMakeFiles/basket.dir/clean
 
 #=============================================================================
+# Target rules for target tests/CMakeFiles/basket_test.dir
+
+# All Build rule for target.
+tests/CMakeFiles/basket_test.dir/all: src/basket/CMakeFiles/basket.dir/all
+tests/CMakeFiles/basket_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+tests/CMakeFiles/basket_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f tests/CMakeFiles/basket_test.dir/build.make tests/CMakeFiles/basket_test.dir/depend
+	$(MAKE) -f tests/CMakeFiles/basket_test.dir/build.make tests/CMakeFiles/basket_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=5,6 "Built target basket_test"
+.PHONY : tests/CMakeFiles/basket_test.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/basket_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" 8
+	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/basket_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" 0
+.PHONY : tests/CMakeFiles/basket_test.dir/rule
+
+# Convenience name for target.
+basket_test: tests/CMakeFiles/basket_test.dir/rule
+
+.PHONY : basket_test
+
+# clean rule for target.
+tests/CMakeFiles/basket_test.dir/clean:
+	$(MAKE) -f tests/CMakeFiles/basket_test.dir/build.make tests/CMakeFiles/basket_test.dir/clean
+.PHONY : tests/CMakeFiles/basket_test.dir/clean
+
+#=============================================================================
 # Target rules for target tests/CMakeFiles/computer_test.dir
 
 # All Build rule for target.
@@ -565,7 +596,7 @@ tests/CMakeFiles/computer_test.dir/all: _deps/googletest-build/googletest/CMakeF
 tests/CMakeFiles/computer_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f tests/CMakeFiles/computer_test.dir/build.make tests/CMakeFiles/computer_test.dir/depend
 	$(MAKE) -f tests/CMakeFiles/computer_test.dir/build.make tests/CMakeFiles/computer_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=9,10 "Built target computer_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=11,12 "Built target computer_test"
 .PHONY : tests/CMakeFiles/computer_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -594,7 +625,7 @@ tests/CMakeFiles/tv_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/g
 tests/CMakeFiles/tv_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f tests/CMakeFiles/tv_test.dir/build.make tests/CMakeFiles/tv_test.dir/depend
 	$(MAKE) -f tests/CMakeFiles/tv_test.dir/build.make tests/CMakeFiles/tv_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=35,36 "Built target tv_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=37,38 "Built target tv_test"
 .PHONY : tests/CMakeFiles/tv_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -623,7 +654,7 @@ tests/CMakeFiles/product_test.dir/all: _deps/googletest-build/googletest/CMakeFi
 tests/CMakeFiles/product_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f tests/CMakeFiles/product_test.dir/build.make tests/CMakeFiles/product_test.dir/depend
 	$(MAKE) -f tests/CMakeFiles/product_test.dir/build.make tests/CMakeFiles/product_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=29,30 "Built target product_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=31,32 "Built target product_test"
 .PHONY : tests/CMakeFiles/product_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -652,7 +683,7 @@ tests/CMakeFiles/person_test.dir/all: _deps/googletest-build/googletest/CMakeFil
 tests/CMakeFiles/person_test.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f tests/CMakeFiles/person_test.dir/build.make tests/CMakeFiles/person_test.dir/depend
 	$(MAKE) -f tests/CMakeFiles/person_test.dir/build.make tests/CMakeFiles/person_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=23,24 "Built target person_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=25,26 "Built target person_test"
 .PHONY : tests/CMakeFiles/person_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -680,7 +711,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletes
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=13,14 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=15,16 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -707,7 +738,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=11,12 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=13,14 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -734,7 +765,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=17,18 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=19,20 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -761,7 +792,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=15,16 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles" --progress-num=17,18 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.

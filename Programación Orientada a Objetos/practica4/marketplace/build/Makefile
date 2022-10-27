@@ -298,6 +298,19 @@ basket/fast:
 .PHONY : basket/fast
 
 #=============================================================================
+# Target rules for targets named basket_test
+
+# Build rule for target.
+basket_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 basket_test
+.PHONY : basket_test
+
+# fast build rule for target.
+basket_test/fast:
+	$(MAKE) -f tests/CMakeFiles/basket_test.dir/build.make tests/CMakeFiles/basket_test.dir/build
+.PHONY : basket_test/fast
+
+#=============================================================================
 # Target rules for targets named computer_test
 
 # Build rule for target.
@@ -424,6 +437,7 @@ help:
 	@echo "... computer"
 	@echo "... basket_main"
 	@echo "... basket"
+	@echo "... basket_test"
 	@echo "... computer_test"
 	@echo "... tv_test"
 	@echo "... product_test"

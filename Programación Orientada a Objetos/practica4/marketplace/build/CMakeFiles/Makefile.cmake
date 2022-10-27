@@ -167,6 +167,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/computer/CMakeFiles/computer.dir/DependInfo.cmake"
   "src/basket/CMakeFiles/basket_main.dir/DependInfo.cmake"
   "src/basket/CMakeFiles/basket.dir/DependInfo.cmake"
+  "tests/CMakeFiles/basket_test.dir/DependInfo.cmake"
   "tests/CMakeFiles/computer_test.dir/DependInfo.cmake"
   "tests/CMakeFiles/tv_test.dir/DependInfo.cmake"
   "tests/CMakeFiles/product_test.dir/DependInfo.cmake"

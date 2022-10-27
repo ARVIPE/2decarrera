@@ -35,8 +35,8 @@ target_link_libraries(computer_test
 PRIVATE GTest::GTest computer)
 add_test(computer_gtests computer_test)
 
-## Testing basket library
-#add_executable(basket_test basket_test.cc)
-#target_link_libraries(basket_test
-# PRIVATE GTest::GTest basket)
-#add_test(basket_gtests basket_test)
+# Testing basket library
+add_executable(basket_test basket_test.cc)
+target_link_libraries(basket_test
+PRIVATE GTest::GTest basket)
+add_test(basket_gtests basket_test)

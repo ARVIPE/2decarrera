@@ -1,5 +1,6 @@
-person_gtests 2 0.00101335
-product_gtests 2 0.000943945
-tv_gtests 2 0.000984733
-computer_gtests 2 0.000950803
+person_gtests 1 0.00218881
+product_gtests 1 0.0023231
+tv_gtests 1 0.00223869
+computer_gtests 1 0.00196936
+basket_gtests 1 0.00203713
 ---

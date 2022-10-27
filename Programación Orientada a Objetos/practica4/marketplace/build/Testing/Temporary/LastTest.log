@@ -1,10 +1,10 @@
-Start testing: Oct 25 09:16 CEST
+Start testing: Oct 27 12:41 CEST
 ----------------------------------------------------------
-1/4 Testing: person_gtests
-1/4 Test: person_gtests
+1/5 Testing: person_gtests
+1/5 Test: person_gtests
 Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/person_test"
 Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
-"person_gtests" start time: Oct 25 09:16 CEST
+"person_gtests" start time: Oct 27 12:41 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -31,15 +31,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"person_gtests" end time: Oct 25 09:16 CEST
+"person_gtests" end time: Oct 27 12:41 CEST
 "person_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/4 Testing: product_gtests
-2/4 Test: product_gtests
+2/5 Testing: product_gtests
+2/5 Test: product_gtests
 Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/product_test"
 Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
-"product_gtests" start time: Oct 25 09:16 CEST
+"product_gtests" start time: Oct 27 12:41 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -60,15 +60,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"product_gtests" end time: Oct 25 09:16 CEST
+"product_gtests" end time: Oct 27 12:41 CEST
 "product_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/4 Testing: tv_gtests
-3/4 Test: tv_gtests
+3/5 Testing: tv_gtests
+3/5 Test: tv_gtests
 Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/tv_test"
 Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
-"tv_gtests" start time: Oct 25 09:16 CEST
+"tv_gtests" start time: Oct 27 12:41 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 4 tests from 1 test suite.
@@ -91,15 +91,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"tv_gtests" end time: Oct 25 09:16 CEST
+"tv_gtests" end time: Oct 27 12:41 CEST
 "tv_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/4 Testing: computer_gtests
-4/4 Test: computer_gtests
+4/5 Testing: computer_gtests
+4/5 Test: computer_gtests
 Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/computer_test"
 Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
-"computer_gtests" start time: Oct 25 09:16 CEST
+"computer_gtests" start time: Oct 27 12:41 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -120,8 +120,43 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"computer_gtests" end time: Oct 25 09:16 CEST
+"computer_gtests" end time: Oct 27 12:41 CEST
 "computer_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 25 09:16 CEST
+5/5 Testing: basket_gtests
+5/5 Test: basket_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/basket_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
+"basket_gtests" start time: Oct 27 12:41 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from Basket
+[ RUN      ] Basket.ConstructorDefaultParam
+[       OK ] Basket.ConstructorDefaultParam (0 ms)
+[ RUN      ] Basket.Basket_set_id
+[       OK ] Basket.Basket_set_id (0 ms)
+[ RUN      ] Basket.Basket_add_product
+[       OK ] Basket.Basket_add_product (0 ms)
+[ RUN      ] Basket.Basket_delete_product1
+[       OK ] Basket.Basket_delete_product1 (0 ms)
+[ RUN      ] Basket.Basket_delete_product2
+[       OK ] Basket.Basket_delete_product2 (0 ms)
+[ RUN      ] Basket.Basket_delete_basket
+[       OK ] Basket.Basket_delete_basket (0 ms)
+[----------] 6 tests from Basket (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"basket_gtests" end time: Oct 27 12:41 CEST
+"basket_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 27 12:41 CEST

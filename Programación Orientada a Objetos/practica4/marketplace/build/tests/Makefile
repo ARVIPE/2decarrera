@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+tests/CMakeFiles/basket_test.dir/rule:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/basket_test.dir/rule
+.PHONY : tests/CMakeFiles/basket_test.dir/rule
+
+# Convenience name for target.
+basket_test: tests/CMakeFiles/basket_test.dir/rule
+
+.PHONY : basket_test
+
+# fast build rule for target.
+basket_test/fast:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/basket_test.dir/build.make tests/CMakeFiles/basket_test.dir/build
+.PHONY : basket_test/fast
+
+# Convenience name for target.
 tests/CMakeFiles/computer_test.dir/rule:
 	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/computer_test.dir/rule
 .PHONY : tests/CMakeFiles/computer_test.dir/rule
@@ -226,6 +241,33 @@ person_test: tests/CMakeFiles/person_test.dir/rule
 person_test/fast:
 	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/person_test.dir/build.make tests/CMakeFiles/person_test.dir/build
 .PHONY : person_test/fast
+
+basket_test.o: basket_test.cc.o
+
+.PHONY : basket_test.o
+
+# target to build an object file
+basket_test.cc.o:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/basket_test.dir/build.make tests/CMakeFiles/basket_test.dir/basket_test.cc.o
+.PHONY : basket_test.cc.o
+
+basket_test.i: basket_test.cc.i
+
+.PHONY : basket_test.i
+
+# target to preprocess a source file
+basket_test.cc.i:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/basket_test.dir/build.make tests/CMakeFiles/basket_test.dir/basket_test.cc.i
+.PHONY : basket_test.cc.i
+
+basket_test.s: basket_test.cc.s
+
+.PHONY : basket_test.s
+
+# target to generate assembly for a file
+basket_test.cc.s:
+	cd "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build" && $(MAKE) -f tests/CMakeFiles/basket_test.dir/build.make tests/CMakeFiles/basket_test.dir/basket_test.cc.s
+.PHONY : basket_test.cc.s
 
 computer_test.o: computer_test.cc.o
 
@@ -347,11 +389,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... basket_test"
 	@echo "... computer_test"
 	@echo "... tv_test"
 	@echo "... product_test"
 	@echo "... install/local"
 	@echo "... person_test"
+	@echo "... basket_test.o"
+	@echo "... basket_test.i"
+	@echo "... basket_test.s"
 	@echo "... computer_test.o"
 	@echo "... computer_test.i"
 	@echo "... computer_test.s"
