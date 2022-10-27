@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/product.dir/product.cc.o"
-  "CMakeFiles/product.dir/product.cc.o.d"
   "libproduct.a"
   "libproduct.pdb"
 )

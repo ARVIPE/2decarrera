@@ -1,2 +1,2 @@
-/usr/bin/ar qc libtv.a CMakeFiles/tv.dir/tv.cc.o
+/usr/bin/ar qc libtv.a  CMakeFiles/tv.dir/tv.cc.o
 /usr/bin/ranlib libtv.a

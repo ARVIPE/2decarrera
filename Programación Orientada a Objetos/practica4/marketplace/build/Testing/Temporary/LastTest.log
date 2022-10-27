@@ -1,10 +1,10 @@
-Start testing: Oct 23 12:27 CEST
+Start testing: Oct 25 09:16 CEST
 ----------------------------------------------------------
 1/4 Testing: person_gtests
 1/4 Test: person_gtests
 Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/person_test"
 Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
-"person_gtests" start time: Oct 23 12:27 CEST
+"person_gtests" start time: Oct 25 09:16 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -31,7 +31,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"person_gtests" end time: Oct 23 12:27 CEST
+"person_gtests" end time: Oct 25 09:16 CEST
 "person_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -39,7 +39,7 @@ Test Passed.
 2/4 Test: product_gtests
 Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/product_test"
 Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
-"product_gtests" start time: Oct 23 12:27 CEST
+"product_gtests" start time: Oct 25 09:16 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -60,7 +60,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"product_gtests" end time: Oct 23 12:27 CEST
+"product_gtests" end time: Oct 25 09:16 CEST
 "product_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -68,7 +68,7 @@ Test Passed.
 3/4 Test: tv_gtests
 Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/tv_test"
 Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
-"tv_gtests" start time: Oct 23 12:27 CEST
+"tv_gtests" start time: Oct 25 09:16 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 4 tests from 1 test suite.
@@ -91,7 +91,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"tv_gtests" end time: Oct 23 12:27 CEST
+"tv_gtests" end time: Oct 25 09:16 CEST
 "tv_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -99,7 +99,7 @@ Test Passed.
 4/4 Test: computer_gtests
 Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests/computer_test"
 Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/tests
-"computer_gtests" start time: Oct 23 12:27 CEST
+"computer_gtests" start time: Oct 25 09:16 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -120,8 +120,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"computer_gtests" end time: Oct 23 12:27 CEST
+"computer_gtests" end time: Oct 25 09:16 CEST
 "computer_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 23 12:27 CEST
+End testing: Oct 25 09:16 CEST

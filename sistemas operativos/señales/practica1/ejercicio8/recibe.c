@@ -14,6 +14,7 @@ void tratarSenal(int signal)
 
 int main()
 {
+    //mantengo a la espera de recibir una señal
     signal(SIGUSR1, &tratarSenal);
     printf("Soy %ld \n",(long int)getpid());
     while(1);

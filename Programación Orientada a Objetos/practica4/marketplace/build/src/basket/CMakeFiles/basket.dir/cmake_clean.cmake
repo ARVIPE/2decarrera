@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/basket.dir/basket.cc.o"
-  "CMakeFiles/basket.dir/basket.cc.o.d"
   "libbasket.a"
   "libbasket.pdb"
 )

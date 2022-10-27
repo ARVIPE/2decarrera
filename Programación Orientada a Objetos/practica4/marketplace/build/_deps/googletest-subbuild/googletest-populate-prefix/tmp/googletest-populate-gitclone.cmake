@@ -5,7 +5,7 @@ if(NOT "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Obje
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-src"
+  COMMAND ${CMAKE_COMMAND} -E remove_directory "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-src"
   RESULT_VARIABLE error_code
   )
 if(error_code)
@@ -17,7 +17,7 @@ set(error_code 1)
 set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
-    COMMAND "/usr/bin/git"  clone --no-checkout --config "advice.detachedHead=false" "https://github.com/google/googletest.git" "googletest-src"
+    COMMAND "/usr/bin/git"  clone --no-checkout "https://github.com/google/googletest.git" "googletest-src"
     WORKING_DIRECTORY "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps"
     RESULT_VARIABLE error_code
     )

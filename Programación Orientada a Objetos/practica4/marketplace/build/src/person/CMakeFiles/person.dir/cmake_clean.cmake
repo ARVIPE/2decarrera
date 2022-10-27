@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/person.dir/person.cc.o"
-  "CMakeFiles/person.dir/person.cc.o.d"
   "libperson.a"
   "libperson.pdb"
 )

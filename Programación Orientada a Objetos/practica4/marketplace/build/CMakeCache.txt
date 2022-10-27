@@ -35,11 +35,11 @@ CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-11
+CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-9
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-11
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-9
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -61,11 +61,11 @@ CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-11
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-9
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-11
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-9
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -101,7 +101,7 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 
 //User executables (bin)
 CMAKE_INSTALL_BINDIR:PATH=bin
@@ -158,7 +158,7 @@ CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
 
 //Path to a program.
-CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake
+CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -295,9 +295,6 @@ FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 //Enables UPDATE_DISCONNECTED behavior just for population of googletest
 FETCHCONTENT_UPDATES_DISCONNECTED_GOOGLETEST:BOOL=OFF
 
-//Git command line client
-GIT_EXECUTABLE:FILEPATH=/usr/bin/git
-
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
@@ -306,16 +303,13 @@ INSTALL_GTEST:BOOL=ON
 Marketplace_BINARY_DIR:STATIC=/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build
 
 //Value Computed by CMake
-Marketplace_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
 Marketplace_SOURCE_DIR:STATIC=/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace
+
+//Path to a program.
+_Python_EXECUTABLE:FILEPATH=/usr/bin/python3.9
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-build/googlemock
-
-//Value Computed by CMake
-gmock_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
 gmock_LIB_DEPENDS:STATIC=general;gtest;
@@ -333,16 +327,10 @@ gmock_main_LIB_DEPENDS:STATIC=general;gmock;
 googletest-distribution_BINARY_DIR:STATIC=/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-build
 
 //Value Computed by CMake
-googletest-distribution_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
 googletest-distribution_SOURCE_DIR:STATIC=/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-src
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-build/googletest
-
-//Value Computed by CMake
-gtest_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 gtest_SOURCE_DIR:STATIC=/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-src/googletest
@@ -380,9 +368,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/arturo/Documentos/GitHub/2decarrera/Programac
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=22
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=16
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -450,7 +438,11 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Test CMAKE_HAVE_LIBC_PTHREAD
-CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
+//Have library pthreads
+CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
+//Have library pthread
+CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 //Have include pthread.h
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
@@ -519,7 +511,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.22
+CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.16
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -551,18 +543,16 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python
-FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/usr/bin/python3.10][cfound components: Interpreter ][v3.10.6()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/usr/bin/python3.9][cfound components: Interpreter ][v3.9.15()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
-//ADVANCED property for variable: GIT_EXECUTABLE
-GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
-//Path to a program.
-_Python_EXECUTABLE:INTERNAL=/usr/bin/python3.10
-//Python Properties
-_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
-_Python_INTERPRETER_SIGNATURE:INTERNAL=b91b4035ecb3bb3f5760d35922531bcd
+//ADVANCED property for variable: _Python_EXECUTABLE
+_Python_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: _Python_INTERPRETER_SIGNATURE
+_Python_INTERPRETER_SIGNATURE-ADVANCED:INTERNAL=1
+_Python_INTERPRETER_SIGNATURE:INTERNAL=5b249f534fb5da59127a04216834c6ce
 cmake_package_name:INTERNAL=GTest
 generated_dir:INTERNAL=/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/_deps/googletest-build/googletest/generated
 //ADVANCED property for variable: gmock_build_tests

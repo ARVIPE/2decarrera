@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tv.dir/tv.cc.o"
-  "CMakeFiles/tv.dir/tv.cc.o.d"
   "libtv.a"
   "libtv.pdb"
 )
