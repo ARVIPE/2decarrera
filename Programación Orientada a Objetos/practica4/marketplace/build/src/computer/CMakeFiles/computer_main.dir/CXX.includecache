@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/computer/computer.h
+string
+-
+../product/product.h
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/product/product.h
+
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/computer/computer_main.cc
+iostream
+-
+string
+-
+computer.h
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/computer/computer.h
+../product/product.h
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/product/product.h
+
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/product/product.h
+string
+-
+

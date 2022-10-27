@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/basket/basket.h
+string
+-
+list
+-
+../product/product.h
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/product/product.h
+
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/basket/basket_main.cc
+iostream
+-
+string
+-
+basket.h
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/basket/basket.h
+
+/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/src/product/product.h
+string
+-
+
