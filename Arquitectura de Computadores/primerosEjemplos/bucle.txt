@@ -1,0 +1,21 @@
+0 1
+1 2
+2 3
+3 4
+4 0
+5 0
+6 FFFC
+@
+7
+@
+CRA
+ADDI 4
+ADD 5
+STA 5
+CRA
+ADD 4
+ITA
+STA 4
+ISZ 6
+JMP 8
+HALT

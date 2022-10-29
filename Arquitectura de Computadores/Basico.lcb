@@ -1,0 +1,13 @@
+B3 B2 B1 B0 F Zb Za Zac Zsc X Qn Qn1 As Qs Bs N I B R E
+0  0  0  0  X X  X  X   X   X X  X   X  X  X  X 0 0 0 0
+0  0  0  1  X X  X  X   X   X X  X   X  X  X  X 1 0 0 1
+0  0  1  0  X X  X  X   X   X X  X   X  X  X  X 0 1 0 1
+0  0  1  1  X X  X  X   X   X X  X   X  X  X  X 0 0 1 1
+0  1  0  0  0 X  X  X   X   X X  X   X  X  X  X 1 0 0 1
+0  1  0  0  1 X  X  X   X   X X  X   X  X  X  X 0 1 0 1
+0  1  0  1  0 X  X  X   X   X X  X   X  X  X  X 0 1 0 1
+0  1  0  1  1 X  X  X   X   X X  X   X  X  X  X 0 1 0 0
+0  1  1  0  X 0  X  X   X   X X  X   X  X  X  X 0 1 0 1
+0  1  1  0  X 1  X  X   X   X X  X   X  X  X  X 1 0 0 1
+0  1  1  1  X 0  X  X   X   X X  X   X  X  X  X 0 1 0 0
+0  1  1  1  X 1  X  X   X   X X  X   X  X  X  X 0 1 0 1

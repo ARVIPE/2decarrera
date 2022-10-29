@@ -1,0 +1,13 @@
+0 FFFD
+1 2
+2 0
+@
+3
+@
+CRA
+ADD 1	
+CTA
+ITA
+ADD 0
+STA 2
+HALT

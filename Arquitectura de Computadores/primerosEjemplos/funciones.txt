@@ -1,0 +1,15 @@
+0 1
+1 5
+2 0
+@
+3
+@
+ADD 1
+CSR 8
+ADD 0
+STA 2
+HALT
+HALT
+CTA
+ITA
+JMPI 8
