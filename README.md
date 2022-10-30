@@ -46,7 +46,7 @@ Antes de empezar :checkered_flag:, necesitas tener compilador de [C] y de [C++] 
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/2decarrera
+$ git clone https://github.com/ARVIPE/2decarrera.git
 
 # Access
 $ cd 2decarrera
