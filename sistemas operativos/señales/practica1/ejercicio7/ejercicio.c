@@ -27,6 +27,7 @@ int main(){
         printf("Soy el hijo:%ld,y mi padre es:%ld\n",(long int)getpid(),(long int)getppid());
         while(1);
     }
+        
         for(int i=0;i<5;i++){
             sleep(1);
             kill(pid,SIGUSR1);
@@ -48,4 +49,5 @@ int main(){
             }
 
         }
+        exit(EXIT_SUCCESS);
     }

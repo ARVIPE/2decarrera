@@ -7,16 +7,14 @@
 #include <string.h>
 #include <signal.h>
 
-void tratarSenal(int signal)
+void capturaSenal(int signal)
 {
     printf("He recibido SIGSUR y su codi es %d\n", signal);
 }
 
 int main()
 {
-    //mantengo a la espera de recibir una señal
-    signal(SIGUSR1, &tratarSenal);
-    printf("Soy %ld \n",(long int)getpid());
-    while(1);
-    exit(EXIT_SUCCESS);
-}  
+    signal(SIGUSR1, &capturaSenal);
+    printf("Soy %ld \n", (long int)getpid());
+    while (1);
+}

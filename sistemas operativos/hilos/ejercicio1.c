@@ -24,6 +24,13 @@ int main()
         4 argumento) NULL si la función del hilo no recibe argumento o (void*)&variable siendo variable la pasada como argumento a la función
     */
     pthread_create(&id_hilo, NULL, (void*)saluda, NULL);
+    //Control de errores al crear hilo
+    if(pthread_create(&id_hilo, NULL, (void*)saluda, NULL)){
+        printf("ERROR...");
+        exit(EXIT_FAILURE);
+    }
+
+
     //ESPERAR AL HILO
     pthread_join(id_hilo, (void**)NULL);
     /*
