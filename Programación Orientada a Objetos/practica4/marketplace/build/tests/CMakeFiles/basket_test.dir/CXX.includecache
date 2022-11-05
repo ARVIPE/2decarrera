@@ -11,6 +11,8 @@ string
 -
 list
 -
+map
+-
 ../product/product.h
 ../src/product/product.h
 

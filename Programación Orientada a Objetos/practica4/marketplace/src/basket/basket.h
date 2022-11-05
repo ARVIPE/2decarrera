@@ -6,6 +6,7 @@
 
 #include <string>
 #include <list>
+#include <map>
 #include "../product/product.h"
 
 
@@ -15,6 +16,8 @@ private:
     std::string id_;
     std::list<Product> product_list_;
     float total_;
+
+    std::map<std::string,int> product_quantity_;
 public:
     Basket(std::string id, float total = 0.0)
     {
@@ -31,6 +34,7 @@ public:
     inline void delete_basket(){product_list_.clear();}
     inline int get_size(){return product_list_.size();}
     inline int get_price(){return total_;}
+
 
 
 };

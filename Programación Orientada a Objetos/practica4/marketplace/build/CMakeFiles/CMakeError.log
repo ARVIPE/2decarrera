@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ddd1f/fast && /usr/bin/make -f CMakeFiles/cmTC_ddd1f.dir/build.make CMakeFiles/cmTC_ddd1f.dir/build
+Run Build Command(s):/usr/bin/make cmTC_73561/fast && /usr/bin/make -f CMakeFiles/cmTC_73561.dir/build.make CMakeFiles/cmTC_73561.dir/build
 make[1]: se entra en el directorio '/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ddd1f.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ddd1f.dir/src.c.o   -c "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles/CMakeTmp/src.c"
-Linking C executable cmTC_ddd1f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddd1f.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_ddd1f.dir/src.c.o  -o cmTC_ddd1f 
-/usr/bin/ld: CMakeFiles/cmTC_ddd1f.dir/src.c.o: en la función `main':
+Building C object CMakeFiles/cmTC_73561.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_73561.dir/src.c.o   -c "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_73561
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73561.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_73561.dir/src.c.o  -o cmTC_73561 
+/usr/bin/ld: CMakeFiles/cmTC_73561.dir/src.c.o: en la función `main':
 src.c:(.text+0x46): referencia a `pthread_create' sin definir
 /usr/bin/ld: src.c:(.text+0x52): referencia a `pthread_detach' sin definir
 /usr/bin/ld: src.c:(.text+0x63): referencia a `pthread_join' sin definir
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_ddd1f.dir/build.make:87: cmTC_ddd1f] Error 1
+make[1]: *** [CMakeFiles/cmTC_73561.dir/build.make:87: cmTC_73561] Error 1
 make[1]: se sale del directorio '/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_ddd1f/fast] Error 2
+make: *** [Makefile:121: cmTC_73561/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_3e7cc/fast && /usr/bin/make -f CMakeFiles/cmTC_3e7cc.dir/build.make CMakeFiles/cmTC_3e7cc.dir/build
+Run Build Command(s):/usr/bin/make cmTC_d029c/fast && /usr/bin/make -f CMakeFiles/cmTC_d029c.dir/build.make CMakeFiles/cmTC_d029c.dir/build
 make[1]: se entra en el directorio '/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3e7cc.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3e7cc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3e7cc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e7cc.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3e7cc.dir/CheckFunctionExists.c.o  -o cmTC_3e7cc  -lpthreads 
+Building C object CMakeFiles/cmTC_d029c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d029c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d029c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d029c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d029c.dir/CheckFunctionExists.c.o  -o cmTC_d029c  -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_3e7cc.dir/build.make:87: cmTC_3e7cc] Error 1
+make[1]: *** [CMakeFiles/cmTC_d029c.dir/build.make:87: cmTC_d029c] Error 1
 make[1]: se sale del directorio '/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica4/marketplace/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_3e7cc/fast] Error 2
+make: *** [Makefile:121: cmTC_d029c/fast] Error 2
 
 
 
