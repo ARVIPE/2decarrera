@@ -30,6 +30,7 @@ class Person{
     inline std::string get_province(){return province_;}
     inline std::string get_country(){return country_;}
     inline int get_entry_year(){return entry_year_;}
+    inline std::string get_name_surname(){return name_ + surname_;}
     //Setters
     inline void set_id(std::string id){id_=id;}
     inline void set_name(std::string name){name_=name;}
