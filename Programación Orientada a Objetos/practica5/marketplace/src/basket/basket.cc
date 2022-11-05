@@ -3,7 +3,6 @@
 
 #include "basket.h"
 
-
 bool Basket::delete_product(Product &p)
 {
     for (auto i = product_list_.begin(); i != product_list_.end(); i++)
@@ -27,7 +26,7 @@ bool Basket::delete_product(Product &p)
 
 bool Basket::delete_product(std::string id)
 {
-   for (auto i = product_list_.begin(); i != product_list_.end(); i++)
+    for (auto i = product_list_.begin(); i != product_list_.end(); i++)
     {
         if (i->get_id() == id)
         {
@@ -59,12 +58,3 @@ void Basket::add_product(Product product)
     }
     Basket::total_ += product.get_price();
 }
-
-// std::vector<std::string> get_ids(){
-//     std::vector<std::string> mult;
-    
-//     for (std::list<Product>::iterator i = product_list_.begin(); i != product_list_.end(); i++){
-
-//     }
-    
-// }

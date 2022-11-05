@@ -31,7 +31,7 @@ public:
     // Get id
     inline std::string get_id() { return id_; }
     inline int get_size() { return product_list_.size(); }
-    inline int get_price() { return total_; }
+    inline double get_total() { return total_; }
     std::vector<std::string> get_ids()
     {
         std::vector<std::string> mult;
@@ -56,7 +56,7 @@ public:
     inline void set_id(std::string id) { id_ = id; }
     void add_product(Product p);
     bool delete_product(Product &p);
-    bool delete_product(std:: string id);
+    bool delete_product(std::string id);
     inline void delete_basket() { product_list_.clear(); }
 };
 

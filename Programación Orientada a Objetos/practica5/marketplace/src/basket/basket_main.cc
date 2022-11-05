@@ -45,7 +45,7 @@ int main(void)
 
     std::cout << std::endl;
 
-    std::cout << "Precio total de la cesta: " << b.get_price() << std::endl;
+    std::cout << "Precio total de la cesta: " << b.get_total() << std::endl;
 
     std::cout << "-------------------------------------------------------" << std::endl;
     std::cout << "Mas productos añadidos con id repetidos" << std::endl;
@@ -86,7 +86,7 @@ int main(void)
 
     std::cout << std::endl;
 
-    std::cout << "Precio total de la cesta: " << b.get_price() << std::endl;
+    std::cout << "Precio total de la cesta: " << b.get_total() << std::endl;
 
     std::cout << "-------------------------------------------------------" << std::endl;
     std::cout << "Producto con cantidad 1 eliminado y con > 1" << std::endl;
@@ -120,7 +120,7 @@ int main(void)
 
     std::cout << std::endl;
 
-    std::cout << "Precio total de la cesta: " << b.get_price() << std::endl;
+    std::cout << "Precio total de la cesta: " << b.get_total() << std::endl;
 
     // b.delete_product(p);
     // std::cout << "Baket: " << b.get_id() << "\n";
