@@ -4,6 +4,8 @@
         "stdio.h": "c",
         "wait.h": "c",
         "errno.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "string.h": "c",
+        "pthread.h": "c"
     }
 }
