@@ -1,3 +1,6 @@
+//Cree un programa al que se le introduzcan dos valores y haga con el primer valor una suma recursiva de numeros generados aleatoriamente y con el segundo lo  mismo pero
+//restando recursivamente.
+
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
@@ -16,6 +19,7 @@ void *suma(int *num){
             printf("error\n");
             exit(EXIT_FAILURE);
         }
+
         global ++;
 
          if(pthread_mutex_unlock(&semaforo)!=0){
