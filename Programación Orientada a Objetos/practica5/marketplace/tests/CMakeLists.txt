@@ -42,7 +42,7 @@ PRIVATE GTest::GTest basket)
 add_test(basket_gtests basket_test)
 
 # Testing client library
-#add_executable(client_test client_test.cc)
-#target_link_libraries(client_test
-#PRIVATE GTest::GTest client)
-#add_test(client_gtests client_test)
+add_executable(client_test client_test.cc)
+target_link_libraries(client_test
+PRIVATE GTest::GTest client)
+add_test(client_gtests client_test)
