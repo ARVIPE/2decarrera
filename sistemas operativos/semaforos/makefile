@@ -1,2 +1,2 @@
-hellomake: ejercicio2.c
-	gcc ejercicio2.c -lpthread
+hellomake: ejercicio3.c
+	gcc ejercicio3.c -lpthread

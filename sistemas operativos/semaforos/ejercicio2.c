@@ -14,14 +14,13 @@ int global=0;
 pthread_mutex_t semaforo;
 
 void *suma(int *num){
+    printf("el num es de: %i\n", *num);
     for(int i=0;i<(*num);i++){
         if(pthread_mutex_lock(&semaforo)!=0){
             printf("error\n");
             exit(EXIT_FAILURE);
         }
-
         global ++;
-
          if(pthread_mutex_unlock(&semaforo)!=0){
             printf("error\n");
              exit(EXIT_FAILURE);
