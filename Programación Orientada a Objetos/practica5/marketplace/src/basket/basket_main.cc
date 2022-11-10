@@ -6,7 +6,7 @@
 
 int main(void)
 {
-    Basket b("xx1");
+    Basket b;
 
     Product p("xx1", "Croquetas", 3);
     Product p2("xx1", "Croquetas", 3);

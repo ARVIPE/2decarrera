@@ -9,9 +9,9 @@
 
 int main(void)
 {
-    Basket b("bb1");
-    //Client c("XXX1", "Arturo", "Vicente", "Escriba Lubna", "Cordoba", "Cordoba", "España", 2002);
-    Client p("44XX", "Carlos", "Gutierrez", "C/ Mesa 1", "Aguilar", "Sevilla", "España", 2000, 1);
+    // Basket b("bb1");
+    // //Client c("XXX1", "Arturo", "Vicente", "Escriba Lubna", "Cordoba", "Cordoba", "España", 2002);
+    // Client p("44XX", "Carlos", "Gutierrez", "C/ Mesa 1", "Aguilar", "Sevilla", "España", 2000, 1);
 
     // std::cout << p.get_town();
 

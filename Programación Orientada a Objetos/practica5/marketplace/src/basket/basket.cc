@@ -38,7 +38,7 @@ bool Basket::delete_product(std::string id)
             {
                 product_list_.erase(i);
             }
-                Basket::total_ -= i->get_price();
+            Basket::total_ -= i->get_price();
             return true;
         }
     }

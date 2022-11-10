@@ -2,18 +2,18 @@
 // Testing class Basket
 
 #include "gtest/gtest.h"
-#include "basket.h"
+#include "../basket/basket.h"
 #include "../product/product.h"
 #include "../tv/tv.h"
 #include "../computer/computer.h"
 
 TEST(Basket, ZeroProducts) {
-  Basket b("B1");
+  Basket b;
   EXPECT_EQ(0, b.get_size());
 }
 
 TEST(Basket, AddProduct) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   b.add_product(p1);
   b.add_product(p2);
@@ -25,7 +25,7 @@ TEST(Basket, AddProduct) {
 }
 
 TEST(Basket, AddMoreProducts) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   Tv t1("Tv1");
   Computer c1("C1", ComputerType::Server);
@@ -43,7 +43,7 @@ TEST(Basket, AddMoreProducts) {
 }
 
 TEST(Basket, DeleteProductsP) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   Tv t1("Tv1");
   Computer c1("C1", ComputerType::Server);
@@ -67,7 +67,7 @@ TEST(Basket, DeleteProductsP) {
 }
 
 TEST(Basket, DeleteProductsId) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   Tv t1("Tv1");
   Computer c1("C1", ComputerType::Server);
@@ -91,7 +91,7 @@ TEST(Basket, DeleteProductsId) {
 }
 
 TEST(Basket, DeleteProductsNoId) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   b.add_product(p1);
   b.add_product(p2);
@@ -109,7 +109,7 @@ TEST(Basket, DeleteProductsNoId) {
 }
 
 TEST(Basket, AddAndDeleteProducts) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   Tv t1("Tv1");
   Computer c1("C1", ComputerType::Server);
@@ -131,13 +131,13 @@ TEST(Basket, AddAndDeleteProducts) {
 }
 
 TEST(Basket, BasketTotalZero) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   EXPECT_FLOAT_EQ(0.0,b.get_total());
 }
 
 TEST(Basket, BasketTotal) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1", "Product 1", 100.5);
   Product p2("P2", "Product 2", 200.5);
   Product p3("P3", "Product 3", 300.5);
@@ -148,7 +148,7 @@ TEST(Basket, BasketTotal) {
 }
 
 TEST(Basket, BasketTotalDelete) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1", "Product 1", 100.5);
   Product p2("P2", "Product 2", 200.5);
   Product p3("P3", "Product 3", 300.5);
@@ -165,7 +165,7 @@ TEST(Basket, BasketTotalDelete) {
 }
 
 TEST(Basket, BasketTotalDeleteQuantities) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1", "Product 1", 100.5);
   Product p2("P2", "Product 2", 200.5);
   Product p3("P3", "Product 3", 300.5);
@@ -189,13 +189,13 @@ TEST(Basket, BasketTotalDeleteQuantities) {
 }
 
 TEST(Basket, Basket_get_ids_empty) {
-  Basket b("B1");
+  Basket b;
   std::vector<std::string> vs;
   vs=b.get_ids();
   EXPECT_EQ(0, vs.size());
 }
 TEST(Basket, Basket_get_ids) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1", "Product 1", 100.5);
   Product p2("P2", "Product 2", 200.5);
   Product p3("P3", "Product 3", 300.5);
@@ -229,13 +229,13 @@ TEST(Basket, Basket_get_ids) {
   EXPECT_EQ(0, vs.size());
 }
 TEST(Basket, Basket_get_qs_empty) {
-  Basket b("B1");
+  Basket b;
   std::vector<int> v;
   v=b.get_qs();
   EXPECT_EQ(0, v.size());
 }
 TEST(Basket, Basket_get_qs) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1", "Product 1", 100.5);
   Product p2("P2", "Product 2", 200.5);
   Product p3("P3", "Product 3", 300.5);
