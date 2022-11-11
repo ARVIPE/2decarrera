@@ -46,3 +46,9 @@ add_executable(client_test client_test.cc)
 target_link_libraries(client_test
 PRIVATE GTest::GTest client)
 add_test(client_gtests client_test)
+
+# Testing seller library
+add_executable(seller_test seller_test.cc)
+target_link_libraries(seller_test
+PRIVATE GTest::GTest seller)
+add_test(seller_gtests seller_test)
