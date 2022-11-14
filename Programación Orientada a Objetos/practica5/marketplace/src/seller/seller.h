@@ -1,8 +1,8 @@
 // seller.h
 // A simple seller class
 
-#ifndef CLIENT_H
-#define CLIENT_H
+#ifndef SELLER_H
+#define SELLER_H
 
 #include <string>
 #include "../person/person.h"
