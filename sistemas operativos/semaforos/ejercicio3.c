@@ -14,55 +14,61 @@ pthread_mutex_t semaforo, semaforo1;
 
 void *generarNum(int *posicion)
 {
-    if (pthread_mutex_lock(&semaforo) != 0)
-    {
-        printf("error\n");
-        exit(EXIT_FAILURE);
-    }
-    int pos = *posicion;
-    printf("La pos es : %i\n", *posicion);
-    if (pthread_mutex_unlock(&semaforo) != 0)
-    {
-        printf("error\n");
-        exit(EXIT_FAILURE);
-    }
 
-    int suma = 0;
+    int pos = *posicion;
+
+    int num = 0;
+    int suma2 = 0;
 
     for (int i = 0; i < 5; i++)
     {
-        if (pthread_mutex_lock(&semaforo1) != 0)
-        {
-            printf("error\n");
-            exit(EXIT_FAILURE);
-        }
 
-        suma += rand() % 10;
+        num = rand() % 10;
+        suma2+=num;
 
         if (pos % 2 == 0)
         {
-
-            par += suma;
+            if (pthread_mutex_lock(&semaforo) != 0)
+            {
+                printf("error\n");
+                exit(EXIT_FAILURE);
+            }
+            par += num;
+            if (pthread_mutex_unlock(&semaforo) != 0)
+            {
+                printf("error\n");
+                exit(EXIT_FAILURE);
+            }
         }
         else
         {
+            if (pthread_mutex_lock(&semaforo1) != 0)
+            {
+                printf("error\n");
+                exit(EXIT_FAILURE);
+            }
 
-            impar += suma;
-        }
-        if (pthread_mutex_unlock(&semaforo1) != 0)
-        {
-            printf("error\n");
-            exit(EXIT_FAILURE);
+            impar += num;
+            if (pthread_mutex_unlock(&semaforo1) != 0)
+            {
+                printf("error\n");
+                exit(EXIT_FAILURE);
+            }
         }
     }
 
     int *retorno = (int *)malloc(sizeof(int));
-    (*retorno) = suma;
+    (*retorno) = suma2;
     pthread_exit((void *)retorno);
 }
 
 int main(int argc, char **argv)
 {
+     if (argc != 2)
+    {
+        printf("ERROR: no se han introducido suficientes argumentos");
+        exit(EXIT_FAILURE);
+    }
     int N = atoi(argv[1]);
     pthread_t idHilos[N];
     srand(time(NULL));
@@ -78,11 +84,7 @@ int main(int argc, char **argv)
         exit(EXIT_FAILURE);
     }
 
-    if (argc != 2)
-    {
-        printf("ERROR: no se han introducido suficientes argumentos");
-        exit(EXIT_FAILURE);
-    }
+   
 
     int variable[N];
     for (int i = 0; i < N; i++)
@@ -101,7 +103,8 @@ int main(int argc, char **argv)
     int sumaPar, sumaImpar = 0;
     for (int i = 0; i < N; i++)
     {
-        if (pthread_join(idHilos[i], (void **)&valorRecogido) != 0){
+        if (pthread_join(idHilos[i], (void **)&valorRecogido) != 0)
+        {
             printf("error en la espera\n");
             exit(EXIT_FAILURE);
         }
