@@ -1,0 +1,4 @@
+HALT false 0 q0
+ADD true 2 q1
+STA true 2 q2
+ONES true 5 q3
