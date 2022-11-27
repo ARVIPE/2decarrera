@@ -2,18 +2,18 @@ $
 PC+1->PC:t1
 PC->MAR:t0
 GPR(AD)->MAR:t2
-GPR->M:t4路q2 + t7路q3
 GPR(OP)->OPR:t2
-M->GPR:t1 + t3路q1
-ACC->GPR:t3路q2
-GPR+ACC->ACC:t4路q1
-0->QR:t3路q3
-QR->OPR:t4路q3
-ROL FA:t5路q3 + t7路q3
-GPR+1->GPR:t6路q3路F
+M->GPR:t1 + t3穛1
+ACC->GPR:t3穛2
+GPR+ACC->ACC:t4穛1
+0->QR:t3穛2
+QR->GPR:t4穛2
+ROL FA:t5穛2 + t7穛2
+GPR+1->GPR:t6穛2稦
+GPR->M:t7穛2
 $
-SR+1->SR:t0 + t1 + t2 + t3路q1 + t3路q2 + t3路q3 + t4路q3 + t5路q3 + t6路q3路Zsc
-LOAD SR:t4路q1-0 + t4路q2-0 + t7路q3-0 + t6路q3路Zsc'-5
-LOAD SC:t3路q3-16
-SC-1->SC:t5路q3
+SR+1->SR:t0 + t1 + t2 + t3穛1 + t3穛2 + t4穛2 + t5穛2 + t6穛2穁sc
+LOAD SR:t4穛1-0 + t7穛2-0 + t6穛2穁sc'-5
+LOAD SC:t3穛2-16
+SC-1->SC:t5穛2
 $
