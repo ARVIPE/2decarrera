@@ -1,0 +1,19 @@
+$
+PC+1->PC:t1
+PC->MAR:t0
+GPR(AD)->MAR:t2
+GPR(OP)->OPR:t2
+M->GPR:t1 + t3·q1
+ACC->GPR:t3·q2
+GPR+ACC->ACC:t4·q1
+0->QR:t3·q2
+QR->GPR:t4·q2
+ROL FA:t5·q2 + t7·q2
+GPR+1->GPR:t6·q2·F
+GPR->M:t7·q2
+$
+SR+1->SR:t0 + t1 + t2 + t3·q1 + t3·q2 + t4·q2 + t5·q2 + t6·q2·Zsc
+LOAD SR:t4·q1-0 + t7·q2-0 + t6·q2·Zsc'-5
+LOAD SC:t3·q2-16
+SC-1->SC:t5·q2
+$
