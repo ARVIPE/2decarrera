@@ -7,6 +7,8 @@
         "stdlib.h": "c",
         "string.h": "c",
         "pthread.h": "c",
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "unistd.h": "c",
+        "semaphore.h": "c"
     }
 }
