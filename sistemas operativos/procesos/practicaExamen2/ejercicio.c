@@ -1,4 +1,5 @@
-// Ejercicio que crea tantos procesos en función del número de ficheros pasados cuenta lineas de estos ficheros y devuelve la suma total de las lineas
+// Ejercicio que crea tantos procesos en función del número de ficheros pasados cuenta lineas de estos ficheros
+// y devuelve la suma total de las lineas
 
 #include <stdio.h>
 #include <sys/types.h>

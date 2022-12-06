@@ -9,6 +9,7 @@
         "pthread.h": "c",
         "stdbool.h": "c",
         "unistd.h": "c",
-        "semaphore.h": "c"
+        "semaphore.h": "c",
+        "cstdlib": "c"
     }
 }

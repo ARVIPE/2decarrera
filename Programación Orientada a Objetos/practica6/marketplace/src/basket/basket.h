@@ -29,6 +29,7 @@ public:
     // Get id
     inline int get_size() { return product_list_.size(); }
     inline double get_total() { return total_; }
+    
     std::vector<std::string> get_ids()
     {
         std::vector<std::string> mult;

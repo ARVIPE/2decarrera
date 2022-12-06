@@ -52,3 +52,9 @@ add_executable(seller_test seller_test.cc)
 target_link_libraries(seller_test
 PRIVATE GTest::GTest seller)
 add_test(seller_gtests seller_test)
+
+# Testing market library
+add_executable(market_test market_test.cc)
+target_link_libraries(market_test
+PRIVATE GTest::GTest market basket)
+add_test(market_gtests market_test)

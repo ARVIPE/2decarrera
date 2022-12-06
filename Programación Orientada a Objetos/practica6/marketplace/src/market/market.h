@@ -14,7 +14,8 @@
 #include "../seller/seller.h"
 
 
-class Market{
+class Market:public Basket
+{
 
 private:
     std::list<Client> client_list_;
@@ -35,9 +36,11 @@ public:
     inline int n_sellers() {return seller_list_.size(); }
     bool delete_client(Client &c);
     bool delete_seller(Seller &s);
-    bool add_product_seller(Product p, std::string idVendedor);
-
-
+    bool add_product_seller(Product product, std::string id_seller);
+    bool add_product_client(Product product, std::string id_client); 
+    bool delete_product_seller(Product product, std::string id_seller);
+    bool delete_product_client(Product product, std::string id_client);
+    double get_money_in_basket();
 
 };
 
