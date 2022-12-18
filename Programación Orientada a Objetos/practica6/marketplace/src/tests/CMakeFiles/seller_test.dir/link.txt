@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/seller_test.dir/seller_test.cc.o -o seller_test  ../src/seller/libseller.a ../lib/libgtest_main.a ../lib/libgtest.a ../src/person/libperson.a ../src/basket/libbasket.a 

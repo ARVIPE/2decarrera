@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/product_main.dir/product_main.cc.o -o product_main  libproduct.a 

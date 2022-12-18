@@ -2,7 +2,6 @@
 // main de mi programa
 #include <iostream>
 #include <string>
-#include "market.h"
 
 
 int main(void)
@@ -12,8 +11,6 @@ int main(void)
     // Client p("44XX", "Carlos", "Gutierrez", "C/ Mesa 1", "Aguilar", "Sevilla", "España", 2000, 1);
 
     // std::cout << p.get_town();
-    Market m("Esto es un slogan");
-    std::cout << m.get_slogan();
 
 
    //std::cout << c.get_id();

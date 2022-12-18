@@ -1,3 +1,0 @@
-CLIENT ID | PRODUCT_ID | PRODUCT QTY 
-C1	|	P1	|	1C1	|	P2	|	2C1	|	P3	|	1C2	|	P5	|	1C2	|	P1	|	1C2	|	P4	|	1-------------------------------
-TOTAL:110€

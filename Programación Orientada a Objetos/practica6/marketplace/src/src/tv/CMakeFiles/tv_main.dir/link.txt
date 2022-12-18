@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/tv_main.dir/tv_main.cc.o -o tv_main  libtv.a 

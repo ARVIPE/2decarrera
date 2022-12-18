@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/person_test.dir/person_test.cc.o -o person_test  ../src/person/libperson.a ../lib/libgtest_main.a ../lib/libgtest.a 

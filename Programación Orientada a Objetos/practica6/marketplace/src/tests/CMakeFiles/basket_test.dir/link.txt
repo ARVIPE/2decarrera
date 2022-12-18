@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/basket_test.dir/basket_test.cc.o -o basket_test  ../src/basket/libbasket.a ../lib/libgtest_main.a ../lib/libgtest.a 

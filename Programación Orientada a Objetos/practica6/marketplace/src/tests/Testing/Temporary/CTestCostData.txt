@@ -1,9 +1,0 @@
-person_gtests 7 0.000376022
-product_gtests 7 0.000336775
-tv_gtests 7 0.000280019
-computer_gtests 7 0.000341577
-basket_gtests 7 0.000305828
-client_gtests 7 0.000283079
-seller_gtests 7 0.000284439
-market_gtests 4 0.000666872
----

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/seller_main.dir/seller_main.cc.o -o seller_main  libseller.a ../person/libperson.a ../basket/libbasket.a 

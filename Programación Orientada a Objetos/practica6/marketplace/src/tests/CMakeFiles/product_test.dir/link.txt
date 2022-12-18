@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/product_test.dir/product_test.cc.o -o product_test  ../src/product/libproduct.a ../lib/libgtest_main.a ../lib/libgtest.a 

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libseller.a CMakeFiles/seller.dir/seller.cc.o
-/usr/bin/ranlib libseller.a
