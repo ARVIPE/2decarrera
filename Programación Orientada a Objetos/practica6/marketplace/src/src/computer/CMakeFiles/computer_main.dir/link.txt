@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/computer_main.dir/computer_main.cc.o -o computer_main  libcomputer.a 

@@ -1,0 +1,309 @@
+Start testing: Dec 18 18:44 CET
+----------------------------------------------------------
+1/8 Testing: person_gtests
+1/8 Test: person_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests/person_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests
+"person_gtests" start time: Dec 18 18:44 CET
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from Person
+[ RUN      ] Person.ConstructorDefaultParam
+[       OK ] Person.ConstructorDefaultParam (0 ms)
+[ RUN      ] Person.ConstructorParam
+[       OK ] Person.ConstructorParam (0 ms)
+[ RUN      ] Person.Entry_year_test
+[       OK ] Person.Entry_year_test (0 ms)
+[ RUN      ] Person.Function_get_full_address
+[       OK ] Person.Function_get_full_address (0 ms)
+[ RUN      ] Person.DefaultCopyConstructor
+[       OK ] Person.DefaultCopyConstructor (0 ms)
+[ RUN      ] Person.DefaultEqualOperator
+[       OK ] Person.DefaultEqualOperator (0 ms)
+[----------] 6 tests from Person (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"person_gtests" end time: Dec 18 18:44 CET
+"person_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: product_gtests
+2/8 Test: product_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests/product_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests
+"product_gtests" start time: Dec 18 18:44 CET
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from Product
+[ RUN      ] Product.ConstructorDefaultParam
+[       OK ] Product.ConstructorDefaultParam (0 ms)
+[ RUN      ] Product.ConstructorParam
+[       OK ] Product.ConstructorParam (0 ms)
+[ RUN      ] Product.ProductSetters
+[       OK ] Product.ProductSetters (0 ms)
+[----------] 3 tests from Product (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"product_gtests" end time: Dec 18 18:44 CET
+"product_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: tv_gtests
+3/8 Test: tv_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests/tv_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests
+"tv_gtests" start time: Dec 18 18:44 CET
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from Tv
+[ RUN      ] Tv.ConstructorDefaultParam
+[       OK ] Tv.ConstructorDefaultParam (0 ms)
+[ RUN      ] Tv.ConstructorParam
+[       OK ] Tv.ConstructorParam (0 ms)
+[ RUN      ] Tv.TvSetters
+[       OK ] Tv.TvSetters (0 ms)
+[ RUN      ] Tv.Tv_set_inch
+[       OK ] Tv.Tv_set_inch (0 ms)
+[----------] 4 tests from Tv (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tv_gtests" end time: Dec 18 18:44 CET
+"tv_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: computer_gtests
+4/8 Test: computer_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests/computer_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests
+"computer_gtests" start time: Dec 18 18:44 CET
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from Computer
+[ RUN      ] Computer.ConstructorDefaultParam
+[       OK ] Computer.ConstructorDefaultParam (0 ms)
+[ RUN      ] Computer.ConstructorParam
+[       OK ] Computer.ConstructorParam (0 ms)
+[ RUN      ] Computer.ComputerSetters
+[       OK ] Computer.ComputerSetters (0 ms)
+[----------] 3 tests from Computer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"computer_gtests" end time: Dec 18 18:44 CET
+"computer_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: basket_gtests
+5/8 Test: basket_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests/basket_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests
+"basket_gtests" start time: Dec 18 18:44 CET
+Output:
+----------------------------------------------------------
+[==========] Running 15 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 15 tests from Basket
+[ RUN      ] Basket.ZeroProducts
+[       OK ] Basket.ZeroProducts (0 ms)
+[ RUN      ] Basket.AddProduct
+[       OK ] Basket.AddProduct (0 ms)
+[ RUN      ] Basket.AddMoreProducts
+[       OK ] Basket.AddMoreProducts (0 ms)
+[ RUN      ] Basket.DeleteProductsP
+[       OK ] Basket.DeleteProductsP (0 ms)
+[ RUN      ] Basket.DeleteProductsId
+[       OK ] Basket.DeleteProductsId (0 ms)
+[ RUN      ] Basket.DeleteProductsNoId
+[       OK ] Basket.DeleteProductsNoId (0 ms)
+[ RUN      ] Basket.AddAndDeleteProducts
+[       OK ] Basket.AddAndDeleteProducts (0 ms)
+[ RUN      ] Basket.BasketTotalZero
+[       OK ] Basket.BasketTotalZero (0 ms)
+[ RUN      ] Basket.BasketTotal
+[       OK ] Basket.BasketTotal (0 ms)
+[ RUN      ] Basket.BasketTotalDelete
+[       OK ] Basket.BasketTotalDelete (0 ms)
+[ RUN      ] Basket.BasketTotalDeleteQuantities
+[       OK ] Basket.BasketTotalDeleteQuantities (0 ms)
+[ RUN      ] Basket.Basket_get_ids_empty
+[       OK ] Basket.Basket_get_ids_empty (0 ms)
+[ RUN      ] Basket.Basket_get_ids
+[       OK ] Basket.Basket_get_ids (0 ms)
+[ RUN      ] Basket.Basket_get_qs_empty
+[       OK ] Basket.Basket_get_qs_empty (0 ms)
+[ RUN      ] Basket.Basket_get_qs
+[       OK ] Basket.Basket_get_qs (0 ms)
+[----------] 15 tests from Basket (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 15 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"basket_gtests" end time: Dec 18 18:44 CET
+"basket_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: client_gtests
+6/8 Test: client_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests/client_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests
+"client_gtests" start time: Dec 18 18:44 CET
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from Client
+[ RUN      ] Client.ConstructorDefaultParam
+[       OK ] Client.ConstructorDefaultParam (0 ms)
+[ RUN      ] Client.ConstructorParam
+[       OK ] Client.ConstructorParam (0 ms)
+[ RUN      ] Client.TestGetNameSurname
+[       OK ] Client.TestGetNameSurname (0 ms)
+[ RUN      ] Client.Entry_year_test
+[       OK ] Client.Entry_year_test (0 ms)
+[ RUN      ] Client.Function_get_full_address
+[       OK ] Client.Function_get_full_address (0 ms)
+[ RUN      ] Client.DefaultCopyConstructor
+[       OK ] Client.DefaultCopyConstructor (0 ms)
+[ RUN      ] Client.DefaultEqualOperator
+[       OK ] Client.DefaultEqualOperator (0 ms)
+[ RUN      ] Client.Premium
+[       OK ] Client.Premium (0 ms)
+[----------] 8 tests from Client (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"client_gtests" end time: Dec 18 18:44 CET
+"client_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: seller_gtests
+7/8 Test: seller_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests/seller_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests
+"seller_gtests" start time: Dec 18 18:44 CET
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from Seller
+[ RUN      ] Seller.ConstructorDefaultParam
+[       OK ] Seller.ConstructorDefaultParam (0 ms)
+[ RUN      ] Seller.ConstructorParam
+[       OK ] Seller.ConstructorParam (0 ms)
+[ RUN      ] Seller.TestGetNameSurname
+[       OK ] Seller.TestGetNameSurname (0 ms)
+[ RUN      ] Seller.Entry_year_test
+[       OK ] Seller.Entry_year_test (0 ms)
+[ RUN      ] Seller.Function_get_full_address
+[       OK ] Seller.Function_get_full_address (0 ms)
+[ RUN      ] Seller.DefaultCopyConstructor
+[       OK ] Seller.DefaultCopyConstructor (0 ms)
+[ RUN      ] Seller.DefaultEqualOperator
+[       OK ] Seller.DefaultEqualOperator (0 ms)
+[ RUN      ] Seller.Sector
+[       OK ] Seller.Sector (0 ms)
+[----------] 8 tests from Seller (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"seller_gtests" end time: Dec 18 18:44 CET
+"seller_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: market_gtests
+8/8 Test: market_gtests
+Command: "/home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests/market_test"
+Directory: /home/arturo/Documentos/GitHub/2decarrera/Programación Orientada a Objetos/practica6/marketplace/src/tests
+"market_gtests" start time: Dec 18 18:44 CET
+Output:
+----------------------------------------------------------
+[==========] Running 14 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 14 tests from Basket
+[ RUN      ] Basket.Constructor
+[       OK ] Basket.Constructor (0 ms)
+[ RUN      ] Basket.get_slogan
+[       OK ] Basket.get_slogan (0 ms)
+[ RUN      ] Basket.set_slogan
+[       OK ] Basket.set_slogan (0 ms)
+[ RUN      ] Basket.add_client
+[       OK ] Basket.add_client (0 ms)
+[ RUN      ] Basket.add_seller
+[       OK ] Basket.add_seller (0 ms)
+[ RUN      ] Basket.delete_client
+[       OK ] Basket.delete_client (0 ms)
+[ RUN      ] Basket.delete_seller
+[       OK ] Basket.delete_seller (0 ms)
+[ RUN      ] Basket.del_add_client_seller
+[       OK ] Basket.del_add_client_seller (0 ms)
+[ RUN      ] Basket.add_product_seller
+[       OK ] Basket.add_product_seller (0 ms)
+[ RUN      ] Basket.add_product_client
+[       OK ] Basket.add_product_client (0 ms)
+[ RUN      ] Basket.delete_product_seller
+[       OK ] Basket.delete_product_seller (0 ms)
+[ RUN      ] Basket.delete_product_client
+[       OK ] Basket.delete_product_client (0 ms)
+[ RUN      ] Basket.get_money_in_basket
+[       OK ] Basket.get_money_in_basket (0 ms)
+[ RUN      ] Basket.dump_market
+[       OK ] Basket.dump_market (0 ms)
+[----------] 14 tests from Basket (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 14 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"market_gtests" end time: Dec 18 18:44 CET
+"market_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 18 18:44 CET

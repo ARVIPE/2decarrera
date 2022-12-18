@@ -1,0 +1,2 @@
+/usr/bin/ar qc libperson.a CMakeFiles/person.dir/person.cc.o
+/usr/bin/ranlib libperson.a

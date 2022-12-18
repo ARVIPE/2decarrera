@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmarket.a CMakeFiles/market.dir/market.cc.o
+/usr/bin/ranlib libmarket.a
