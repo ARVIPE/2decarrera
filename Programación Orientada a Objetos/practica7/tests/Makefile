@@ -14,7 +14,7 @@
 
 # Points to the root of Google Test, relative to where this file is.
 # Remember to tweak this if you move this file.
-GTEST_DIR = /home/i8u7lm/marketplace/build/_deps/googletest-src/googletest
+GTEST_DIR = /home/arturo/practica7/build/_deps/googletest-src/googletest
 # Where to find user code.
 # USER_DIR = ../samples
 

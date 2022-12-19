@@ -22,17 +22,22 @@ public:
              int valMinRang = 0,
              int valMaxRang = 1000)
     {
-        if((valInicial < valMinRang) || (valInicial > valMaxRang))
-        {
-            valInicial = 0;
+        if((valMaxRang == 0) && (valMaxRang = 1000)){
+            if(valInicial > 0 && valInicial < 1000){
+                valInicial_ = valInicial;
+            }else{
+                valInicial_ = 0;
+            }
         }else{
-            valInicial_ = valInicial;
+             if((valInicial < valMinRang) || (valInicial > valMaxRang) || (valMaxRang < valMinRang)){
+                    valInicial_ = 0;
+                    valMinRang_ = 0;
+                    valMaxRang_ = 1000;
+             }
         }
-        valMinRang_ = valMinRang;
-        valMaxRang_ = valMaxRang;
     }
     //Getters
-    //inline int get_contador(){ return val_}
+    inline int get(){ return valInicial_;}
 
 };
 
