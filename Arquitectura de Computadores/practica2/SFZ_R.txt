@@ -1,0 +1,17 @@
+0 2
+1 0
+@
+2
+@
+CRA
+ADD 0
+ROL_F_ACC
+SFZ_R
+JMP A
+CRA
+STA 1
+HALT
+CRA
+ITA
+STA 1
+HALT

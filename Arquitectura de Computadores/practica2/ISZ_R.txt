@@ -1,0 +1,8 @@
+0 FFFF
+1 5
+@
+2
+@
+ISZ_R 0
+ADD 1
+HALT

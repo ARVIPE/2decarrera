@@ -1,0 +1,9 @@
+0 1
+1 5
+@
+2
+@
+ADD 0
+DJNZ 5
+ADD 1
+HALT
