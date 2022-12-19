@@ -12,6 +12,7 @@
 #include <iterator>
 #include "../client/client.h"
 #include "../seller/seller.h"
+#include <fstream>
 
 
 class Market:public Basket
@@ -41,6 +42,7 @@ public:
     bool delete_product_seller(Product product, std::string id_seller);
     bool delete_product_client(Product product, std::string id_client);
     double get_money_in_basket();
+    void dump_market();
 
 };
 
