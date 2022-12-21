@@ -2,24 +2,26 @@ $
 PC+1->PC:t1
 PC->MAR:t0
 GPR(AD)->MAR:t2
-GPR->M:t4穛3 + t5穛4 + t8穛7穁sc
-QR->M:t5穛4 + t4穛7穁ac
+GPR->M:t4路q3 + t5路q4 + t8路q7路Zsc
+QR->M:t5路q4 + t4路q7路Zac
 GPR(OP)->OPR:t2
-M->GPR:t1 + t3穛1 + t3穛4
-ACC->GPR:t3穛3 + t4穛5
-GPR+1->GPR:t4穛4稡s + t5穛7
-QR->GPR:t10穛5 + t4穛7穁ac'
-0->QR:t3穛7
-0->ACC:t3穛1 + t6穛5穁sc + t8穛5穁sc
-M->QR:t3穛2
-GPR+ACC->ACC:t4穛1 + t9穛5 + t11穛5
-GPR->QR:t3穛5
-ROR FAQ:t7穛5
-ROL FAQ:t5穛5 + t5穛7
-ROL FA:t7穛7
+M->GPR:t1 + t3路q1 + t3路q4
+ACC->GPR:t3路q3 + t4路q5
+GPR+1->GPR:t5路q7
+QR->GPR:t10路q5 + t4路q7路Zac'
+GPR'->GPR:t4路q4路Bs
+Co2 GPR:t4路q4路Bs + t4路q4路Bs
+0->QR:t3路q7
+0->ACC:t3路q1 + t6路q5路Zsc + t8路q5路Zsc
+M->QR:t3路q2
+GPR+ACC->ACC:t4路q1 + t9路q5 + t11路q5
+GPR->QR:t3路q5
+ROR FAQ:t7路q5
+ROL FAQ:t5路q5 + t5路q7
+ROL FA:t7路q7
 $
-SR+1->SR:t0 + t1 + t2 + t3穛1 + t3穛1 + t3穛3 + t3穛4 + t4穛4稡s + t3穛5 + t4穛5 + t5穛5 + t6穛5穁sc + t7穛5 + t8穛5穁sc + t9穛5 + t10穛5 + t3穛7 + t4穛7穁ac' + t5穛7 + t7穛7
-LOAD SR:t4穛1-0 + t3穛2-0 + t4穛3-0 + t4穛4稡s'-0 + t5穛4-0 + t6穛5穁sc'-5 + t8穛5穁sc'-7 + t11穛5-0 + t4穛7穁ac-0 + t6穛7稦'-5 + t6穛7稦-8 + t8穛7穁sc'-7 + t8穛7穁sc-0
-SC-1->SC:t5穛5 + t7穛5 + t5穛7 + t7穛7
-LOAD SC:t4穛5-5 + t6穛5穁sc-5 + t3穛7-17
+SR+1->SR:t0 + t1 + t2 + t3路q1 + t3路q1 + t3路q3 + t3路q4 + t4路q4路Bs + t3路q5 + t4路q5 + t5路q5 + t6路q5路Zsc + t7路q5 + t8路q5路Zsc + t9路q5 + t10路q5 + t3路q7 + t4路q7路Zac' + t5路q7 + t7路q7
+LOAD SR:t4路q1-0 + t3路q2-0 + t4路q3-0 + t4路q4路Bs'-0 + t5路q4-0 + t6路q5路Zsc'-5 + t8路q5路Zsc'-7 + t11路q5-0 + t4路q7路Zac-0 + t6路q7路F'-5 + t6路q7路F-8 + t8路q7路Zsc'-7 + t8路q7路Zsc-0
+SC-1->SC:t5路q5 + t7路q5 + t5路q7 + t7路q7
+LOAD SC:t4路q5-5 + t6路q5路Zsc-5 + t3路q7-17
 $
