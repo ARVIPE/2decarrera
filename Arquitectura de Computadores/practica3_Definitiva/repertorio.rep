@@ -1,0 +1,7 @@
+HALT false 0 q0
+LDA true 2 q1
+LDQ true 1 q2
+STA true 2 q3
+ABS true 4 q4
+ADDIMM true 9 q5
+ROL1_F_ACC true 7 q7

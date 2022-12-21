@@ -1,0 +1,6 @@
+0 FFff
+@
+1
+@
+ABS 0
+HALT
