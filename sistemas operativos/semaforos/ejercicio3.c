@@ -24,7 +24,7 @@ void *generarNum(int *posicion)
     {
 
         num = rand() % 10;
-        suma2+=num;
+        suma2 += num;
 
         if (pos % 2 == 0)
         {
@@ -64,7 +64,7 @@ void *generarNum(int *posicion)
 
 int main(int argc, char **argv)
 {
-     if (argc != 2)
+    if (argc != 2)
     {
         printf("ERROR: no se han introducido suficientes argumentos");
         exit(EXIT_FAILURE);
@@ -83,8 +83,6 @@ int main(int argc, char **argv)
         printf("error\n");
         exit(EXIT_FAILURE);
     }
-
-   
 
     int variable[N];
     for (int i = 0; i < N; i++)
