@@ -8,7 +8,7 @@
 
 int main(){
     
-    Seller s("XXX3", "Arturo", "Vicente", "Periodista quesada chacon", "Cordoba", "Cordoba", "España", 2001, "Informática");
+    Seller s("XXX3", "Arturo", "Vicente", "Avenida gran via parque", "Cordoba", "Cordoba", "España", 2001, "Informática");
 
     std::cout << s.get_id();
 

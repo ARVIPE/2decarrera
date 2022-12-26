@@ -38,6 +38,8 @@ public:
     }
     //Getters
     inline int get(){ return valInicial_;}
+    Contador operator=(const int &n);
+    Contador operator=(const Contador &c);
 
 };
 

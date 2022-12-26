@@ -32,23 +32,23 @@ public:
     
     std::vector<std::string> get_ids()
     {
-        std::vector<std::string> mult;
-        mult.reserve(product_list_.size());
+        std::vector<std::string> vector;
+        vector.reserve(product_list_.size());
         for (std::list<Product>::iterator i = product_list_.begin(); i != product_list_.end(); i++)
         {
-            mult.push_back(i->get_id());
+            vector.push_back(i->get_id());
         }
-        return mult;
+        return vector;
     }
     std::vector<int> get_qs()
     {
-        std::vector<int> mult;
-        mult.reserve(product_list_.size());
+        std::vector<int> vector;
+        vector.reserve(product_list_.size());
         for (std::list<Product>::iterator i = product_list_.begin(); i != product_list_.end(); i++)
         {
-            mult.push_back(product_quantity_[i->get_id()]);
+            vector.push_back(product_quantity_[i->get_id()]);
         }
-        return mult;
+        return vector;
     }
     // Setters
     void add_product(Product p);

@@ -1,5 +1,5 @@
 //person.cc
-//Para metros de persona y metodos
+//Parametros de persona y metodos
 #include "person.h"
 #include<string>
 

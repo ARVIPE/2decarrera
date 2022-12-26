@@ -5,7 +5,6 @@
 
 bool Market::add_client(Client client)
 {
-
     for (auto i = client_list_.begin(); i != client_list_.end(); i++)
     {
         if (i->get_id() == client.get_id())
@@ -96,10 +95,10 @@ bool Market::delete_product_seller(Product product, std::string idVendedor)
     {
         if (idVendedor == i->get_id())
         {
-            std::vector<std::string> mult = i->get_ids();
-            for (int j = 0; j < mult.size(); j++)
+            std::vector<std::string> vector = i->get_ids();
+            for (int j = 0; j < vector.size(); j++)
             {
-                if (mult[j] == product.get_id())
+                if (vector[j] == product.get_id())
                 {
                     return i->delete_product(product);
                 }
@@ -115,10 +114,10 @@ bool Market::delete_product_client(Product product, std::string id_client)
     {
         if (id_client == j->get_id())
         {
-            std::vector<std::string> mult = j->get_ids();
-            for (int k = 0; k < mult.size(); k++)
+            std::vector<std::string> vector = j->get_ids();
+            for (int k = 0; k < vector.size(); k++)
             {
-                if (mult[k] == product.get_id())
+                if (vector[k] == product.get_id())
                 {
                     return j->delete_product(product);
                 }
