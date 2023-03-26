@@ -1,0 +1,12 @@
+Creating leaf node 0 [A]
+Node 0 item: 'A'.
+Has node 0 left child? : N.
+Has node 0 right child? : N.
+Creating leaf node 1 [B]
+Node 1 item: 'B'.
+Has node 1 left child? : N.
+Has node 1 right child? : N.
+Created node 2 [C] left_idx:0 right_idx:1
+Node 2 item: 'C'.
+Has node 2 left child? : Y.
+Has node 2 right child? : Y.

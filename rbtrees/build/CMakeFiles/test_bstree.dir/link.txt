@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall  -rdynamic CMakeFiles/test_bstree.dir/test_bstree.cpp.o  -o test_bstree 

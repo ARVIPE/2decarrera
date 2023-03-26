@@ -1,0 +1,28 @@
+* 1.0
+- Primer versión.
+* 1.1
+- tests_btree: corregido test 10 y añadido nuevo test 11.
+* 1.2
+- Corregido error tests de recorrido usando la búsqueda de un valor.
+  Al usar una sola expresión std::cout << para 
+  ejecutar el recorrido e imprimir el valor "count", dependiendo de la versión
+  del compilador, puede evaluarse "count" antes de ejecutar el recorrido y por lo
+  tanto el valor que sale es el valor inicial de 0. Se corrige separando en dos
+  expresiones std::cout <<, la primera hace el recorrido y la segunda imprime el
+  valor count modificado por la función lambda.
+* 1.3
+- Añadidos tests para BTNode.
+- Añadidas operaciones para procesar btree para imprimir/buscar usando
+  funciones lambdas.
+* 1.4
+- Eliminadas las operaciones has_left()/has_right() de BTree ya que en clase de
+  teoría no están especificadas.
+* 1.5
+- Eliminadas operaciones remove_root() de Btree() y los remove_left()/right()
+  de BTree y BTNode.
+* 1.6
+- Corregidos algunos fallos ortográficos.
+- Reorganizados los includes de forma que el include xxxx.hpp incluya al
+  xxxx_imp.hpp
+- Añadido README.md
+- Actualizado al formato del curso 22-23.

@@ -1,0 +1,9 @@
+Is it empty?: Y
+Size: 0
+Enque 1
+Enque 2
+Enque 3
+Is it empty?: N
+Front: 1
+Back: 3
+Size: 3

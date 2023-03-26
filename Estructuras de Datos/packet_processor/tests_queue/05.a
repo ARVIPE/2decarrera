@@ -1,0 +1,26 @@
+Is it empty?: Y
+Size: 0
+Enque 1
+Enque 2
+Enque 3
+Size: 3
+Is it empty?: N
+Front: 1
+Back: 3
+Enque 4
+Enque 5
+Front: 1
+Back: 5
+Size: 5
+Deque 1
+Deque 2
+Deque 3
+Is it empty?: N
+Size: 2
+Deque 4
+Size: 1
+Front: 5
+Back: 5
+Deque 5
+Size: 0
+Is it empty?: Y

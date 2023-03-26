@@ -1,0 +1,4 @@
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/build/CMakeFiles/rebuild_cache.dir
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/build/CMakeFiles/edit_cache.dir
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/build/CMakeFiles/test_btree.dir
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/build/CMakeFiles/test_btree_node.dir

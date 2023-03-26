@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/btree.hpp
+cassert
+-
+exception
+-
+memory
+-
+iostream
+-
+sstream
+-
+btree_imp.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/btree_imp.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/btree_imp.hpp
+btree.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/btree.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/btree_utils.hpp
+cassert
+-
+exception
+-
+memory
+-
+iostream
+-
+queue
+-
+btree.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/btree.hpp
+btree_utils_imp.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/btree_utils_imp.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/btree_utils_imp.hpp
+cassert
+-
+exception
+-
+memory
+-
+iostream
+-
+queue
+-
+algorithm
+-
+btree_utils.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/btree_utils.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/test_btree_node.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+string
+-
+exception
+-
+btree.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/btree.hpp
+btree_utils.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica2/binary_tree/btree_utils.hpp
+

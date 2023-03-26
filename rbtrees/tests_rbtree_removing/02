@@ -1,0 +1,5 @@
+# case 3.2a RR
+UNFOLD [ 30 B [ 20 B [] [] ] [ 40 B [ 35 R [] [] ] [ 50 R [] [] ] ] ]
+REMOVE 20
+SEARCH 20
+FOLD

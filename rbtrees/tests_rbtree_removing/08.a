@@ -1,0 +1,4 @@
+Unfold btree ...  ok.
+Removing  [ 20 ok]
+Search for key value 20 ... not found.
+[ 35 B [ 30 B [] [] ] [ 40 B [] [] ] ]

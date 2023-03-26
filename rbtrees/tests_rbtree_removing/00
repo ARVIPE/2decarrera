@@ -1,0 +1,5 @@
+#CASE 0: empty tree.
+UNFOLD [ 0 B [] [] ]
+REMOVE 0
+SEARCH 0
+FOLD

@@ -38,7 +38,7 @@ int main(int argc, char **argv){
         exit(EXIT_FAILURE);
     }
     srand(time(NULL));
-    int N1 = atoi(argv[1]);
+    int N1 = atoi(argv[1]); 
     int N2 = atoi(argv[2]);
     struct param s[N1];
     struct param r[N2];

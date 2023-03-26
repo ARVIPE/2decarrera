@@ -1,0 +1,5 @@
+UNFOLD [ 1 [ 2 [] [] ] [ 3 [] [] ] ]
+IS_EMPTY
+FOLD
+
+

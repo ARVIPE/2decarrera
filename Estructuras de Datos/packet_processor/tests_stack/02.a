@@ -1,0 +1,17 @@
+Is it empty?: Y
+Size: 0
+Pushing 1
+Pushing 2
+Pushing 3
+Is it empty?: N
+Size: 3
+Top is: 3
+Popping
+Size: 2
+Top is: 2
+Popping
+Size: 1
+Top is: 1
+Popping
+Is it empty?: Y
+Size: 0

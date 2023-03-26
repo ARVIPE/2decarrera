@@ -1,0 +1,5 @@
+#CASE 2 (U is red)
+UNFOLD [ 30 B [ 20 B [ 10 R [] [] ] [] ] [ 40 B [] [] ] ]
+REMOVE 20
+SEARCH 20
+FOLD

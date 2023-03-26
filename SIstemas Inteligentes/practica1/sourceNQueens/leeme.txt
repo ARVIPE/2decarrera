@@ -1,0 +1,11 @@
+Para ejecutar la librería previamente compilada QueenState.o se debe elegir el fichero adecuado según el sistema operativo:
+
+Ubuntu o equivalente:
+g++ -o queensProf main.cpp QueensState-ubuntu.o
+
+MacOS:
+g++ -o queensProf main.cpp QueensState-macOS.o
+
+Si no funcionan los anteriores, siempre se puede trabajar remotamente desde el sistema linux de las aulas de la UCO:
+Conectarse mediante SSH: ssh i32estoa@ts.uco.es
+Ejecutar: g++ -o queensProf main.cpp QueensState-aulasUCO.o

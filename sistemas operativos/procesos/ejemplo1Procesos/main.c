@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include <stdlib.h>
+#include <sys/wait.h>
+#include <errno.h>
+#include <string.h>
 
 //Este programa crea un proceso que muestra un hola mundo
 //Para ver el manual del fork (man fork)
@@ -20,7 +24,7 @@ int main(){
     pid_t pid;
     pid = fork();
     printf("Hola mundo\n");
-     printf("Soy el proceso %ld y mi padre es %ld\n",(long int)getpid(),(long int)getpid());
+    printf("Soy el proceso %ld y mi padre es %ld\n",(long int)getpid(),(long int)getppid());
     return 0;
 }
 
@@ -50,7 +54,7 @@ int main(){
 
 /**
  * Para identificar procesos 
- * printf("Soy el proceso %ld y mi padre es %ld\n",(long int)getpid(),(long int)getpid());
+ * printf("Soy el proceso %ld y mi padre es %ld\n",(long int)getpid(),(long int)getppid());
  * 
  */
 

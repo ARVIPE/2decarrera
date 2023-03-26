@@ -1,0 +1,5 @@
+# case 3.2a LL (the parent is red)
+UNFOLD [ 30 R [ 20 B [ 10 R [] [] ] [ 25 R [] [] ] ] [ 40 B [] [] ] ]
+REMOVE 40
+SEARCH 40
+FOLD

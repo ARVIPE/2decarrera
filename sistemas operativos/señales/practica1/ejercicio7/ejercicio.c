@@ -28,7 +28,7 @@ int main(){
         while(1);
     }
         
-        for(int i=0;i<5;i++){
+        for(int i=0;i<5;i++){ 
             sleep(1);
             kill(pid,SIGUSR1);
         }

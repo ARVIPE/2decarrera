@@ -1,0 +1,4 @@
+Creating node idx 0 with item 1
+Creating node idx 1 with item 2
+Attaching node [1] to node [0] as right child.
+Node [0] right child = 2

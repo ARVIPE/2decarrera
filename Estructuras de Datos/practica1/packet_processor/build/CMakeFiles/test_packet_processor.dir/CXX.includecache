@@ -1,0 +1,82 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/packet_processor.cpp
+packet_processor.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/packet_processor.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/packet_processor.hpp
+iostream
+-
+vector
+-
+queue.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/queue.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/queue.hpp
+cassert
+-
+cstdlib
+-
+stack.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/stack.hpp
+queue_imp.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/queue_imp.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/queue_imp.hpp
+cassert
+-
+queue.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/queue.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/slist.hpp
+iostream
+-
+memory
+-
+slist_imp.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/slist_imp.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/slist_imp.hpp
+sstream
+-
+stdexcept
+-
+cassert
+-
+slist.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/slist.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/stack.hpp
+iostream
+-
+slist.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/slist.hpp
+stack_imp.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/stack_imp.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/stack_imp.hpp
+cassert
+-
+stack.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/stack.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/test_packet_processor.cpp
+exception
+-
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+packet_processor.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/practica1/packet_processor/packet_processor.hpp
+

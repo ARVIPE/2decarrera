@@ -1,0 +1,5 @@
+#Test create a leaf node.
+CREATE_LEAF 0 A
+ITEM 0
+HAS_LEFT 0
+HAS_RIGHT 0

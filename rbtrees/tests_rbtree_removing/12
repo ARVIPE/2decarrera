@@ -1,0 +1,4 @@
+#Case 3.2c R
+UNFOLD [ 20 B [ 10 B [] [] ] [ 30 R [ 25 B [] [] ] [ 35 B [] [] ] ] ]
+REMOVE 10
+FOLD

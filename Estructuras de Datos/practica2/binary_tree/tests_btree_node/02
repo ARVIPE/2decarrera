@@ -1,0 +1,16 @@
+#Test create a node with two childs and access to the child nodes.
+CREATE_LEAF 0 A
+ITEM 0
+HAS_LEFT 0
+HAS_RIGHT 0
+CREATE_LEAF 1 B
+ITEM 1
+HAS_LEFT 1
+HAS_RIGHT 1
+CREATE_NODE 2 C 0 1
+ITEM 2
+HAS_LEFT 2
+HAS_RIGHT 2
+LEFT_NODE 2
+RIGHT_NODE 2
+

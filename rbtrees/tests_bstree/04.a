@@ -1,0 +1,10 @@
+Inserting 88 68 28 17 62 39 66 53 95 84 
+[ 88 R [ 68 R [ 28 R [ 17 R [] [] ] [ 62 R [ 39 R [] [ 53 R [] [] ] ] [ 66 R [] [] ] ] ] [ 84 R [] [] ] ] [ 95 R [] [] ] ]
+Has key value 53 ?: Y.
+Search for key value 53 ...  found.
+Has a current item? Y.
+Current item: 53
+Current's level is: 5
+Has key value 50 ?: N.
+Has a current item? Y.
+Current item: 53

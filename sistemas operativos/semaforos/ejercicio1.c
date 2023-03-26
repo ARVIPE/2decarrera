@@ -19,7 +19,6 @@ void *funcionHilo()
             exit(EXIT_FAILURE);
         }
         global++;
-        pthread_mutex_unlock(&semaforo);
         if (pthread_mutex_unlock(&semaforo) != 0)
         {
             printf("error\n");
@@ -36,7 +35,6 @@ int main()
         printf("error\n");
         exit(EXIT_FAILURE);
     }
-    pthread_mutex_init(&semaforo, NULL);
     pthread_create(&idhilo1, NULL, (void *)funcionHilo, NULL);
     pthread_create(&idhilo2, NULL, (void *)funcionHilo, NULL);
     pthread_join(idhilo1, (void **)NULL);

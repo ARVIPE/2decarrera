@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/slist.hpp
+iostream
+-
+memory
+-
+slist_imp.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/slist_imp.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/slist_imp.hpp
+sstream
+-
+stdexcept
+-
+cassert
+-
+slist.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/slist.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/stack.hpp
+iostream
+-
+slist.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/slist.hpp
+stack_imp.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/stack_imp.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/stack_imp.hpp
+cassert
+-
+stack.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/stack.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/test_stack.cpp
+exception
+-
+iostream
+-
+fstream
+-
+string
+-
+stack.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/stack.hpp
+

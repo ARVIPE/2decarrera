@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/slist.hpp
+iostream
+-
+memory
+-
+slist_imp.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/slist_imp.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/slist_imp.hpp
+sstream
+-
+stdexcept
+-
+cassert
+-
+slist.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/slist.hpp
+
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/test_slist.cpp
+stdexcept
+-
+iostream
+-
+fstream
+-
+string
+-
+slist.hpp
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/slist.hpp
+

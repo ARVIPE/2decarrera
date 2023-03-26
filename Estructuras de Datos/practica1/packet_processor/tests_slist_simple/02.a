@@ -1,0 +1,23 @@
+Inserting front 0
+Inserting front 1
+Inserting front 2
+Inserting front 3
+Head item: 3
+List's size: 4
+Removing front 3
+Head item: 2
+List's size: 3
+Removing front 2
+Inserting front 4
+Head item: 4
+List's size: 3
+Removing front 4
+Head item: 1
+List's size: 2
+Removing front 1
+Is it empty? N
+Head item: 0
+List's size: 1
+Removing front 0
+Is it empty? Y
+List's size: 0

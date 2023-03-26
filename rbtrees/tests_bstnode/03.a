@@ -1,0 +1,7 @@
+Creating node idx 0 with item 1
+Creating node idx 1 with item 2
+Creating node idx 2 with item 3
+Attaching node idx 2 as right child of node idx 0
+Attaching node idx 1 as left child of node idx 0
+Node idx 0 right child's item = 3
+Node idx 0 left child's item = 2

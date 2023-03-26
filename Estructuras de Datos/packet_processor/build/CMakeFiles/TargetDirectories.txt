@@ -1,0 +1,6 @@
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/build/CMakeFiles/rebuild_cache.dir
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/build/CMakeFiles/test_packet_processor.dir
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/build/CMakeFiles/edit_cache.dir
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/build/CMakeFiles/test_queue.dir
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/build/CMakeFiles/test_stack.dir
+/home/arturo/Documentos/GitHub/2decarrera/Estructuras de Datos/packet_processor/build/CMakeFiles/test_slist.dir

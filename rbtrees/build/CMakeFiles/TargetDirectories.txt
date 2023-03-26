@@ -1,0 +1,4 @@
+/home/arturo/Documentos/GitHub/2decarrera/rbtrees/build/CMakeFiles/rebuild_cache.dir
+/home/arturo/Documentos/GitHub/2decarrera/rbtrees/build/CMakeFiles/edit_cache.dir
+/home/arturo/Documentos/GitHub/2decarrera/rbtrees/build/CMakeFiles/test_rbtree.dir
+/home/arturo/Documentos/GitHub/2decarrera/rbtrees/build/CMakeFiles/test_bstree.dir

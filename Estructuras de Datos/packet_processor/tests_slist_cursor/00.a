@@ -1,0 +1,15 @@
+Inserting front 0
+Inserting front 1
+Inserting front 2
+Inserting front 3
+Is it empty? N
+Has next? : Y
+Current item: 3
+Next item: 2
+Going to next.
+Current item: 2
+Going to next.
+Current item: 1
+Going to next.
+Current item: 0
+Has next? : N

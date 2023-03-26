@@ -31,6 +31,7 @@ void *funcionSuma(char *numero)
             exit(EXIT_FAILURE);
         }
     }
+    pthread_exit((void*)NULL);
 }
 
 void *funcionResta(char *numero)
@@ -51,6 +52,7 @@ void *funcionResta(char *numero)
             exit(EXIT_FAILURE);
         }
     }
+    pthread_exit((void*)NULL);
 }
 
 int main(int argc, char **argv)
@@ -68,7 +70,10 @@ int main(int argc, char **argv)
         exit(EXIT_FAILURE);
     }
 
-    pthread_create(&escritor, NULL, (void *)funcionSuma, argv[1]);
+    if(pthread_create(&escritor, NULL, (void *)funcionSuma, argv[1])!=0){
+        perror("No se ha creado el hilo");
+        exit(EXIT_FAILURE);
+    }
     pthread_create(&lector, NULL, (void *)funcionResta, argv[1]);
     pthread_join(escritor, (void **)NULL);
     pthread_join(lector, (void **)NULL);
